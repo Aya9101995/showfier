@@ -1,0 +1,89 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        <text> Edit Customer</text>
+    </h4>
+</div>
+@using (Ajax.BeginForm("SaveCustomer", "CustomersControl", new AjaxOptions { UpdateTargetId = "divCustomers", OnSuccess = "unloadModal('Customers')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oCustomer.CustomerID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCustomer.FullName, new { @class = "form-control", @placeholder = "Customer Name" })
+                @Html.ValidationMessageFor(m => m.oCustomer.FullName, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Email</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCustomer.Email, new { @class = "form-control", @placeholder = "Customer Email" })
+                @*@Html.ValidationMessageFor(m => m.oCustomer.Email, "", new { @style = "color:orange;" })*@
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Phone Code</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCustomer.PhoneCode, Model.lstCountriesPhoneCodesList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.oCustomer.PhoneCode, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Phone Number</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCustomer.PhoneNumber, new { @class = "form-control", @placeholder = "Phone Number" })
+                @Html.ValidationMessageFor(m => m.oCustomer.PhoneNumber, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Date Of Birth</label>
+            <div class="col-sm-10 input-group">
+                @Html.TextBoxFor(m => m.oCustomer.DateOfBirth, new { @class = "form-control datepicker-autoclose", @placeholder = "dd/MM/yyyy" })
+                <span class="input-group-addon"><i class="icon-calender"></i></span>
+                @Html.ValidationMessageFor(m => m.oCustomer.DateOfBirth, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Gender</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCustomer.Gender, Model.lstGenderList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.oCustomer.Gender, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Category</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCustomer.CategoryID, Model.lstCategoriesItemsList, new { @class = "form-control" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="@Url.Content("~/Areas/MWCore/assets/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js")"></script>
+    <script>
+        jQuery('.datepicker-autoclose').datepicker({
+            autoclose: true,
+            todayHighlight: true,
+            format: 'mm/dd/yyyy'
+        });
+    </script>
+}
+
+

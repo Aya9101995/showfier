@@ -1,0 +1,353 @@
+﻿@model MWCore.Models.MWFrontEndModel
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NCCAL | @Model.oPage.PageTitle</title>
+    <link id="" rel="shortcut icon" href="favicon.ico?" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/bootstrap.min.css")">
+
+    <!-- font face CSS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
+
+    <!--font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" )"
+          integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+    <!-- slick CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/slick.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/slick-theme.css")">
+
+    <!-- Custom Radio CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/radio.css")">
+
+    <!-- main style CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/cultural_activities.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/style.css")">
+
+    <!-- animate style CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/animate.min.css")">
+    <link href="@Url.Content("~/assets/css/rateit.css")" rel="stylesheet" />
+
+    <!-- responsive style CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/mediaQuery.css")">
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/home_responsive.css")">
+    <!-- select2 CSS -->
+    <link rel="stylesheet" href="@Url.Content("~/assets/css/select2.css")">
+    <!-- wow-->
+    <script src="@Url.Content("~/assets/JS/wow.min.js")"></script>
+
+    <!-- animate style CSS -->
+    <link href="@Url.Content("~/assets/css/rateit.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/Scripts/jquery-3.6.0.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</head>
+
+<body>
+
+    <!-- header section starts here -->
+    <header class="w=100 white-top">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a class="navbar-brand" href="@Url.Action("Index","Home")">
+                        <img class="company-logo" src="@Url.Content("~/assets/images/uploads/")@Model.GetKeyValue("Header_Logo")">
+                    </a>
+                </div>
+                <div class="col-lg-9">
+                    <div class="first-line-menu">
+                        <ul class="d-md-flex justify-content-center justify-content-lg-end align-items-center">
+                            <li class="menu-top-links">
+                                <a class="menu-link" href="#"><i class="fas fa-user"></i> </a>
+                            </li>
+                            <li>
+                                <form class="search" id="demo-2">
+                                    <input type="search" placeholder="Search">
+                                </form>
+                            </li>
+                            <li>
+                                <div class="language-button">
+                                    @{
+                                        var currentLang = ViewContext.RouteData.Values["lang"].ToString();
+
+                                        currentLang = currentLang.Trim().ToLower();
+                                        switch (currentLang)
+                                        {
+                                            case "en":
+                                                if (Request.Url.PathAndQuery == "/")
+                                                {
+                                                    currentLang = "/ar/";
+                                                }
+                                                else
+                                                {
+                                                    currentLang = "/ar" + Request.Url.PathAndQuery.Substring(3, (Request.Url.PathAndQuery.Length - 3));
+                                                }
+                                                break;
+                                            case "ar":
+                                                if (Request.Url.PathAndQuery == "/")
+                                                {
+                                                    currentLang = "/en/";
+                                                }
+                                                else
+                                                {
+                                                    currentLang = "/en" + Request.Url.PathAndQuery.Substring(3, (Request.Url.PathAndQuery.Length - 3));
+                                                }
+                                                break;
+                                        }
+                                    }
+                                    @if (Model.oSystemLanguage.LanguageID == 1)
+                                    {
+                                        <a id="lnkToArabic" class="arabic" href="@Url.Action("ChangeLanguage","Home",new { @LanguageID = Model.oSystemLanguage.LanguageID, @CurrentURL = currentLang })">AR</a>
+                                        <a id="lnkToEnglish" class="english" href="#">
+                                            EN
+                                        </a>
+                                    }
+                                    else
+                                    {
+                                        <a id="lnkToArabic" class="english" href="#">AR</a>
+                                        <a id="lnkToEnglish" href="@Url.Action("ChangeLanguage","Home",new { @LanguageID = Model.oSystemLanguage.LanguageID, @CurrentURL = currentLang })">
+                                            EN
+                                        </a>
+                                    }
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <nav class="navbar navbar-expand-md navbar-light mt-lg-4 pr-md-0">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                       data-toggle="" aria-haspopup="true" aria-expanded="false">
+                                        About NCCAL
+                                    </a>
+                                    <a class="smalldevice d-xl-none" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="about-us.html">About us</a>
+                                        <a class="dropdown-item" href="organizational-structure.html">Organizational Structure</a>
+                                        <a class="dropdown-item" href="@Url.Action("Index","CulturalImpacts")">Cultural Impact</a>
+                                        <a class="dropdown-item" href="@Url.Action("Index","OurLocations")">Our Locations</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button"
+                                       data-toggle="" aria-haspopup="true" aria-expanded="false">
+                                        Cultural Activities
+                                    </a>
+                                    <a class="smalldevice d-xl-none" id="navbarDropdown" role="button"
+                                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="@Url.Action("Index","Festivals")">Festivals and activities</a>
+                                        <a class="dropdown-item" href="events_calendar.html">Event Calendar</a>
+                                        <a class="dropdown-item" href="@Url.Action("Index","Museums")">Monuments and museums</a>
+                                        <a class="dropdown-item" href="@Url.Action("Index","FineArts")">Fine arts</a>
+                                        <a class="dropdown-item" href="@Url.Action("Index","Competitions")">Competitions and awards</a>
+                                    </div>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Online Publications</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="@Url.Action("Index","Services")">E-Services</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="">Media Center</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">CONTACT US</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="@Model.BannerClass">
+        <div class="homebanner">
+            @if (Model.BannerClass == "banner" && Model.lstBanners != null)
+            {
+                foreach (var item in Model.lstBanners)
+                {
+                    <div class="item">
+                        <a href="#">
+                            <img src="@Url.Content("~/assets/images/Uploads/")@item.ImagePath">
+                        </a>
+                    </div>
+                }
+            }
+            else
+            {
+                <div class="item">
+                    <a href="#">
+                        <img src="@Url.Content("~/assets/images/Uploads/")@Model.oPage.PageBanner">
+                    </a>
+                </div>
+            }
+        </div>
+    </div>
+    @RenderBody()
+    <!--footer section starts Here-->
+    <footer>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12">
+                    <div class="footer-logo">
+                        <a href="index.html"><img src="images/logo_footer.png" alt=""></a>
+                    </div>
+                    <div class="footer-aboutus">
+                        <p>
+                            The National Council for Culture, Arts and Literature
+                            was established by an Amiri Decree issued on July
+                            17, 1973, so that the state assumes the main role in
+                            the process of intellectual, cultural and artistic de-
+                            velopment within a clear vision that works to nurtu
+                            re and promote culture and the arts.
+                        </p>
+
+                    </div>
+                    <div class="row extra-logos">
+                        <div class="footer-logo-extra">
+                            <a href="index.html"><img src="images/flag.png" alt=""></a>
+                        </div>
+                        <div class="footer-logo-extra">
+                            <a href="index.html"><img src="images/newKuwait.png" alt=""></a>
+                        </div>
+                        <div class="footer-logo-extra">
+                            <a href="index.html"><img src="images/tasdeed.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-2 col-sm-12">
+                    <div class="footer-title">
+                        <a href="">INFORMATIONS</a>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href=""><i class="fas fa-sitemap"></i>Site Map</a>
+                        <br>
+                        <a href=""><i class="fas fa-map-marker-alt"></i>Our Locations</a>
+                        <br>
+                        <a href=""><i class="fas fa-phone-volume"></i>Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-2 col-sm-12">
+                    <div class="footer-title">
+                        <a href="">POLICY</a>
+                    </div>
+
+                    <div class="footer-links">
+                        <a href="terms-and-condition.html"><i class="fas fa-pen-nib"></i>Terms of conditions </a>
+                        <br>
+                        <a href="privacy-policy.html"><i class="fas fa-shield-alt"></i>Privacy Policy</a>
+                        <br>
+                        <a href="faq.html"><i class="fas fa-comments"></i>FAQ’s</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+                    <div class="footer-title">
+                        <a href="">NEWS LETTER</a>
+                    </div>
+                    <div class="newsletter-content">
+                        <p>
+                            Subscribe to our newsletter, so that you can be the first
+                            to know about new offers and promotions.
+                        </p>
+                    </div>
+                    <div class="place-holder">
+                        <div class="modal-body row">
+                            <form class="col-xl-10">
+                                <div class="newsletter-subscription">
+                                    <input type="text" class="form-control footer-placeholder" id="recipient-name"
+                                           placeholder="Enter your email">
+                                    <button type="button" class="btn btn-primary .footer-btn">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="footer-icons">
+                        <div class="row">
+                            <div class="col-md-5 col-xl-4 mt-4 mb-4 d-flex align-items-center">
+                                <div class="social-icons">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-youtube"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-snapchat-ghost"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-last-section">
+                <div class="row">
+                    <div class="col-lg-9 col-sm-12 ">
+                        <a href="">
+                            © Copyright National Council for Culture, Arts and Literature 2021 All rights
+                            reserved
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-12">
+                        <span class="mawaqalogo" href="">
+                            Powered by <a href="mawaqaa.com" target="blank">
+                                <img src="images/mawaqaa.png" alt="">
+                            </a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--footer section ends Here-->
+    <!-- Optional JavaScript -->
+
+    <script src="@Url.Content("~/assets/js/jquery-ui.js")"></script>
+    <script src="@Url.Content("~/assets/js/slim.min.js")"></script>
+    <script src="@Url.Content("~/assets/js/bootstrap.js")"></script>
+    <script src="@Url.Content("~/assets/js/popper.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/js/slick.min.js")"></script>
+    <script src="@Url.Content("~/assets/js/custom.js")"></script>
+    <script src="@Url.Content("~/assets/js/jquery.rateit.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/js/select2.min.js")"></script>
+</body>
+
+</html>

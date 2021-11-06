@@ -1,0 +1,180 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <h4 class="modal-title" id="myModalLabel">
+        Edit Key
+    </h4>
+</div>
+@using (Ajax.BeginForm("SavePageKey", "PagesKeysControl", new AjaxOptions { UpdateTargetId = "divPagesKeys", OnBegin = "PreSave", OnSuccess = "unloadModal('Key')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oPageKey.KeyID)
+    @Html.HiddenFor(m => m.oPageKey.PageID)
+    @Html.HiddenFor(m => m.oPageKey.LanguageID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Key Type</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oPageKey.KeyType, Model.lstKeysTypes, new { @id = "slcType", @class = "form -control", @style = "width:100%;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Key Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oPageKey.KeyName, new { @class = "form-control", @placeholder = "Key Name" })
+                @Html.ValidationMessageFor(m => m.oPageKey.KeyName, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Key Value</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oPageKey.KeyValue, new { @id = "KeyValue", @class = "form -control", @placeholder = "Key Value" })
+                <div id="KeyValueArea">
+                    @Html.TextAreaFor(m => m.oPageKey.KeyValue, new { @id = "fulldesc", @class = "form -control" })
+                </div>
+                @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Key Value" })
+                @Html.ValidationMessageFor(m => m.oPageKey.KeyValue, "", new { @style = "color:orange;" })
+                @Html.Image("/assets/Images/Uploads/" + @Model.oPageKey.KeyValue + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                @Html.HiddenFor(m => m.oPageKey.KeyValue)
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+
+
+<script src="@Url.Content("~/Scripts/jquery-3.6.0.min.js")"></script>
+<script src="~/Scripts/jquery.validate.min.js" )"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js" )"></script>
+<script src="@Url.Content("~/Areas/MWCore/assets/plugins/bower_components/tinymce/tinymce.min.js")"></script>
+
+<script>
+    $(document).ready(function () {
+        if ($("#fulldesc").length > 0) {
+            tinymce.init({
+                selector: "textarea#fulldesc",
+                theme: "modern",
+                height: 300,
+                relative_urls: false,
+                remove_script_host: false,
+                convert_urls: true,
+                plugins: [
+                    "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
+                    "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                    "save table contextmenu directionality emoticons template paste textcolor"
+                ],
+                toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons",
+
+            });
+        }
+    $("form").submit(function(){
+    
+    var x = $("#oPageKey_KeyValue")[0];
+        });
+        
+        var Type = $("#slcType").val();
+        if (Type == "Text") {
+            $("#ImageUpload").hide();
+            $("#imgPreview").hide();
+            $("#KeyValueArea").hide();
+            $("#KeyValue").show();
+            $("#KeyValue").css("width", "100%");
+            $("#KeyValue").attr("name","oPageKey.KeyValue");
+
+
+        }
+        else if(Type == "Image") {
+            $("#ImageUpload").show();
+            $("#imgPreview").show();
+            $("#KeyValue").hide();
+            $("#KeyValueArea").hide();
+        }
+    else{
+             $("#ImageUpload").hide();
+            $("#imgPreview").hide();
+            $("#KeyValueArea").show();
+            $("#KeyValue").hide();
+            $("#KeyValueArea").css("width", "100%");
+            $("#KeyValue").attr("name", "xInput");
+    }
+        $("#slcType").on("change", function () {
+            var Type = $("#slcType").val();
+            if (Type == "Text") {
+                $("#ImageUpload").hide();
+            $("#imgPreview").hide();
+            $("#KeyValueArea").hide();
+            $("#KeyValue").show();
+                $("#KeyValue").css("width", "100%");
+                $("#KeyValue").attr("name", "oPageKey.KeyValue");
+
+            }
+            else if(Type == "Image") {
+            $("#ImageUpload").show();
+            $("#imgPreview").show();
+            $("#KeyValue").hide();
+            $("#KeyValueArea").hide();
+        }
+    else{
+             $("#ImageUpload").hide();
+            $("#imgPreview").hide();
+            $("#KeyValueArea").show();
+            $("#KeyValue").hide();
+                $("#KeyValueArea").css("width", "100%");
+                $("#KeyValue").attr("name", "xInput");
+    }
+        });
+        $("#ImageUpload").change(function () {
+            
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#KeyValue').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+    });
+</script>
+<script>
+    $('.modal-dialog').css("width", "80%");
+    
+    $(".fr-wrapper").css("min-height", "350px");
+    $("[videoUpload]").hide();
+</script>

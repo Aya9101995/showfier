@@ -1,0 +1,9 @@
+dist
+jSteps
+docs
+downloads
+*~
+*.diff
+*.patch
+.MW_Store
+node_modules

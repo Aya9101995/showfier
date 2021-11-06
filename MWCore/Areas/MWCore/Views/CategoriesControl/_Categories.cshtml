@@ -1,0 +1,49 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+<div style="text-align:center;">
+    <a class="btn btn-info modal-link" href="@Url.Action("AddEditCategories", "CategoriesControl")"><i class="fa fa-plus"></i> Add New Category</a>
+</div>
+<br />
+<div class="col-lg-12">
+    <div class="table-responsive">
+        <table class="table table-users table-bordered table-hover">
+            <thead>
+                <tr>
+                    <th>Category Name</th>
+                    <th>Color</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.lstCategories)
+                {
+                    <tr>
+                        <td>@item.Title</td>
+                        <td> @item.ColorName  </td>
+                        <td>
+                            <a class="btn btn-info modal-link" href="@Url.Action("AddEditCategories", "CategoriesControl", new { @CategoryID = item.CategoryID})"><i class="fa fa-paste"></i> Edit</a>
+                            @using (Ajax.BeginForm("DeleteColor", new { @controller = "CategoriesControl", @CategoryID = item.CategoryID }, new AjaxOptions { UpdateTargetId = "divCategories" }, new { @style = "display: inline-block;" }))
+                            {
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure?')"><i class="fa fa-close"></i>&nbsp; Delete</button>
+                            }
+                            @using (Ajax.BeginForm("ChangeStatus", new { @controller = "CategoriesControl", @CategoryID = item.CategoryID }, new AjaxOptions { UpdateTargetId = "divCategories" }, new { @style = "display: inline-block;" }))
+                            {
+                                <button type="submit" class="btn btn-default" onclick="return confirm('Are you sure?')">
+
+                                    @if (item.Status == true)
+                                    {
+                                        <text><i class="fa fa-check"></i>&nbsp;@MWCore.Areas.MWCore.Resources.Admin.Deactivate</text>
+                                    }
+                                    else
+                                    {
+                                        <text><i class="fa fa-close"></i>&nbsp;@MWCore.Areas.MWCore.Resources.Admin.Activate</text>
+                                    }
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

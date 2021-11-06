@@ -1,0 +1,47 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div style="text-align:center;">
+    <a class="btn btn-info modal-link" href="@Url.Action("AddEditoGroupPolicies", "GroupPolicies")"><i class="fa fa-plus"></i> Add New Group Policy</a>
+</div>
+<br />
+<div class="col-lg-12">
+    <div class="table-responsive">
+        <table class="table table-users table-bordered table-hover DataTable">
+            <thead>
+                <tr>
+                    <th>Group Policy Name</th>
+                  
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.lstGroupPolicies)
+                {
+                    <tr>
+                        <td>
+                            @if (Model.lstGroupPoliciesPermessionForCurrentUser.Any(x => x.PageName == "GroupPoliciesPermissions" && x.isChecked))
+                            {
+                                <a href="@Url.Action("Index", "GroupPoliciesPermissions", new { @GroupPolicyID = item.ID})"> @item.GroupName</a>
+                            }
+                            else
+                            {
+                                <text>@item.GroupName</text>
+                                }
+
+
+
+                            </td>
+                        <td>
+                            <a class="btn btn-info modal-link" href="@Url.Action("AddEditoGroupPolicies", "GroupPolicies", new { @GroupPoliciesID = item.ID})"><i class="fa fa-paste"></i> Edit</a>
+                            @using (Ajax.BeginForm("DeleteGroupPolicies", new { @controller = "GroupPolicies", @GroupPoliciesID = item.ID }, new AjaxOptions { UpdateTargetId = "divGroupPolicies", OnSuccess = "unloadModal('GroupPolicies')" }, new { @style = "display: inline-block;" }))
+                            {
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure that you want to delete it?')"><i class="fa fa-close"></i>&nbsp; Delete</button>
+                            }
+                         
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+

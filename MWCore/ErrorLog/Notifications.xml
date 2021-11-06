@@ -1,0 +1,15 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="1" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>11/02/2020 12:11</ErrDate>
+    <UserID>Mesage : You have a new  task right now</UserID>
+    <UserType />
+    <ErrPage>Notification</ErrPage>
+    <Msg>{"notification_id":"20200211091124:58d3be78cb1c4cd2ac39cc54d1fd30ea"}</Msg>
+    <Trace>Title : Beeb Beeb App</Trace>
+  </Error>
+</Mawaqaa-Tracking>

@@ -1,0 +1,112 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oCarMakes.CarMakeID > 0)
+        {
+            <text> Edit Car Make</text>
+
+        }
+        else
+        {
+            <text>Add New Car Make</text>
+
+        }
+    </h4>
+</div>
+@using (Ajax.BeginForm("SaveCarMake", "CarMakesControl", new AjaxOptions { UpdateTargetId = "divCarsMakes", OnBegin = "PreSave", OnSuccess = "unloadModal('Cars Makes')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oCarMakes.CarMakeID)
+    @Html.HiddenFor(m => m.oCarMakes.LanguageID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCarMakes.Name, new { @class = "form-control", @placeholder = "Sort Order" })
+                @Html.ValidationMessageFor(m => m.oCarMakes.Name, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Logo</label>
+            <div class="col-sm-10">
+                @if (Model.oCarMakes.CarMakeID > 0)
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Car Make Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.EditFiles, "", new { @style = "color:orange;" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.Files, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Car Make Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.Files, "", new { @style = "color:orange;" })
+                }
+                @Html.Image("/assets/images/Uploads/" + @Model.oCarMakes.Logo + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                @Html.HiddenFor(m => m.oCarMakes.Logo, new { @id = "HdnImg" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCarMakes.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#ImageUpload").change(function () {
+
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+                url += '?width=1550&height=523';
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#HdnImg').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+    })
+</script>

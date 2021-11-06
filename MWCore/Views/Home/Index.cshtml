@@ -1,0 +1,67 @@
+﻿@model MWCore.Models.MWFrontEndModel
+@if (!Model.oPage.IsPreDefinedPage)
+{
+    <!--/navbreadcrumb Section ends Here-->
+    <nav aria-label="breadcrumb" class="container mt-2">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="@Url.Action("Index","Home")">Home</a></li>
+            <li class="breadcrumb-item">@Model.oPage.PageTitle </li>
+        </ol>
+    </nav>
+    <!--/navbreadcrumb-->
+
+    <!--inner content Section Start Here-->
+
+    <div class="inner-page-wrap">
+        <div class="container">
+            <div class="inner-page-hold">
+                <h1 class="inner-page-title">@Model.oPage.PageTitle</h1>
+            </div>
+        </div>
+
+
+        <section class="inner-content Privacy-Policy-main  ">
+            <div class="container">
+                <div class="privacy-policy mb-5">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            @Html.Raw(Model.oPage.PageDetails)
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--/inner content Section ends Here-->
+}
+else
+{
+    
+}
+
+@{
+    if (!Model.oPage.IsPreDefinedPage)
+    {
+        <text>
+            <script>
+                var languagepath = window.location.origin;
+                if (window.location.pathname.includes('/ar/')) {
+                    languagepath += '/en/@Model.oPage.SecondURL';
+                }
+                else {
+                    languagepath += '/ar/@Model.oPage.SecondURL';
+                }
+
+                if (window.location.pathname.includes('/ar/')) {
+                    $("#lnkToEnglish").attr('href', languagepath);
+                    $("#lnkToArabic").attr('href', "#");
+                }
+                else {
+                    $("#lnkToArabic").attr('href', languagepath);
+                    $("#lnkToEnglish").attr('href', "#");
+                }
+            </script>
+        </texT>
+    }
+}

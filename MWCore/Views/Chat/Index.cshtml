@@ -1,0 +1,18 @@
+﻿
+@{
+    Layout = null;
+}
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+</head>
+<script src="@Url.Content("~/Scripts/jquery-3.1.1.min.js")"></script>
+<!--Add the following script at the bottom of the web page (before </body></html>)-->
+<script type="text/javascript">
+    function add_chatinline() { var hccid = 57740217; var nt = document.createElement("script"); nt.async = true; nt.src = "https://mylivechat.com/chatinline.aspx?hccid=" + hccid; var ct = document.getElementsByTagName("script")[0]; ct.parentNode.insertBefore(nt, ct); }
+    add_chatinline();
+    window.setTimeout(ShowChat, 2000);
+    function ShowChat() {
+        debugger;
+        $(".mylivechat_collapsed").click();
+    }
+</script>

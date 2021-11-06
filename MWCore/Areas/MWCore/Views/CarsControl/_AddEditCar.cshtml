@@ -1,0 +1,102 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oCar.CarID > 0)
+        {
+            <text> Edit Car</text>
+        }
+        else
+        {
+            <text>Add New Car</text>
+        }
+    </h4>
+</div>
+
+@using (Ajax.BeginForm("SaveCar", "CarsControl", new AjaxOptions { UpdateTargetId = "divCars", OnBegin = "PreSave", OnSuccess = "unloadModal('Car')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oCar.CarID)
+    @Html.HiddenFor(m => m.oCar.LanguageID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCar.CarName, new { @class = "form-control", @placeholder = "Name" })
+                @Html.ValidationMessageFor(m => m.oCar.CarName, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Plate Number</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCar.PlatNo, new { @class = "form-control", @placeholder = "Plate Number" })
+                @Html.ValidationMessageFor(m => m.oCar.PlatNo, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Car Type</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCar.CarTypeID, Model.VehicleTypesItemsList, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Car Make</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCar.CarMakeID, Model.lstCarMakesItemsList, new { @class = "form-control", @placeholder = "Sort Order", @onchange = "UpdateCarModels(this.value)" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Car Model</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCar.CarModelID, new List<SelectListItem>(), new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oVehicleType.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#oCar_CarMakeID').trigger('change');
+    });
+    function UpdateCarModels(CarMakeID) {
+         var url = "@Url.Action("UpdateCarModel", "CarsControl")";
+            $.ajax({
+                url: url,
+                type: "POST",
+                data: { CarMakeID: CarMakeID },
+                success: function (response) {
+                    for (var i = 0; i < response.length; i++) {
+                        $('#oCar_CarModelID').append($('<option></option>').val(response[i].Value).text(response[i].Text));
+                    }
+
+                    $('#oCar_CarModelID').trigger('change');
+                },
+                error: function (er) {
+                }
+
+            });
+    }
+</script>

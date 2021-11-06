@@ -1,0 +1,1278 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="27" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>11/04/2020 19:36</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "oMaintenanceRequestsTask": { "MaintenanceRequestTaskID": 96, "lstRequests": [ { "MaintenanceRequestID": 129, "VehicleID": 43, "kilometers": "30", "CancelationReasonID": 0, "lstMaintenanceRequestsServices": [ { "ServiceID": 4 } ] } ], "CancelationReasonID": 0 }, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 2 }	
+</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=19308; handshake=31; ; Inner Exception: The wait operation timed out</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.PagesKeys.PagesKeysCOM.GetPageKeyValueByName(String KeyName, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\PagesKeys\PagesKeysCOM.cs:line 94
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;FinalizeTaskAsync&gt;d__5.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeepBeepApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 119
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;FinalizeTask&gt;d__26.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 358
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>1</ErrID>
+    <ErrDate>17-01-2021 15:28</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"oCustomerAddress":{
+		
+       "AddressID":0,
+       "CustomerID":36,
+		"AddressTitle":"Home",
+        "AddressType":0,
+        "AreaID":1,
+        "BlockName":"block1",
+        "BuildingName":"building1",
+        "CityID":1,
+        "CountryID":1,
+"FloorName":"floor1",
+"Latitude":29.3768051786728,
+"Longitude":47.9776414146868,
+"OfficeName":"",
+"OtherNotes":"",
+"PhoneNumber":"88552236",
+"PhoneCode":"00965",
+"StreetName":"street1",
+"DefaultAddress":true
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=2321; handshake=154; ; Inner Exception: The wait operation timed out</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.SaveCustomerAddress(CustomerAddressModel oModel, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 544
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.SaveCustomerAddress(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 219
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerAddress&gt;d__89.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1256
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>2</ErrID>
+    <ErrDate>17-01-2021 15:44</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"oCustomerAddress":{
+		
+       "AddressID":0,
+       "CustomerID":36,
+		"AddressTitle":"Home",
+        "AddressType":0,
+        "AreaID":1,
+        "BlockName":"block1",
+        "BuildingName":"building1",
+        "CityID":1,
+        "CountryID":1,
+"FloorName":"floor1",
+"Latitude":29.3768051786728,
+"Longitude":47.9776414146868,
+"OfficeName":"",
+"OtherNotes":"",
+"PhoneNumber":"88552236",
+"PhoneCode":"00965",
+"StreetName":"street1",
+"DefaultAddress":true
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.SaveCustomerAddress(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 219
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerAddress&gt;d__89.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1256
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>3</ErrID>
+    <ErrDate>17-01-2021 18:47</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+    "CartID": 0,
+	"oCustomer":{
+		"DefaultCountryID":1,
+		"DefaultCurrencyID":1,
+        "Email":"latheef238@gmail.com",
+        "Password":"12345678",
+		"FirstName":"Thasni2",
+		"LastName":"Latheef2",
+		"PhoneCode":"00965",
+		"PhoneNumber":"51158489",
+		"IsOnlineCustomer":true,
+		"ReceiveNotifications":true,
+		"Status":true,
+        "CustomerID":0,
+        "DeviceID":"111111111",
+		"DeviceToken":"111111111",
+		"DevicePlatform":1,
+		"DefaultLanguageID":1
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.Register(CustomersRequestAPI oCustomersRequestAPI)
+   at MWCoreAPI.Controllers.ServicesController.&lt;RegisterCustomer&gt;d__92.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>4</ErrID>
+    <ErrDate>26-01-2021 16:31</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "OrderID":31,
+    "ShopID":1,
+    "ShopBranchID":1,
+    "Rate":5,
+    "Review":"good",
+    "CustomerID":56
+
+    
+    
+}</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 3 ("@0"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.OrderRaiting.OrderRaitingCOM.RateOrder(OrderRaitingModel oModel) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\OrderRaiting\OrderRaitingCOM.cs:line 44
+   at MWCoreAPI.Models.CustomersAPIs.CustomersOrdersAPI.CustomersOrdersAPI.RateOrder(RateOrderRequestAPI rateOrderRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersOrdersAPI\CustomersOrdersAPI.cs:line 159
+   at MWCoreAPI.Controllers.ServicesController.&lt;RateOrder&gt;d__104.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>5</ErrID>
+    <ErrDate>26-01-2021 16:34</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "OrderID":31,
+    "ShopID":1,
+    "ShopBranchID":1,
+    "Rate":5,
+    "Review":"good",
+    "CustomerID":56
+
+    
+    
+}</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 3 ("@0"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.OrderRaiting.OrderRaitingCOM.RateOrder(OrderRaitingModel oModel) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\OrderRaiting\OrderRaitingCOM.cs:line 44
+   at MWCoreAPI.Models.CustomersAPIs.CustomersOrdersAPI.CustomersOrdersAPI.RateOrder(RateOrderRequestAPI rateOrderRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersOrdersAPI\CustomersOrdersAPI.cs:line 159
+   at MWCoreAPI.Controllers.ServicesController.&lt;RateOrder&gt;d__104.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>6</ErrID>
+    <ErrDate>26-01-2021 16:39</ErrDate>
+    <UserID>Kafs4ZQDjYiO6YiohpKJ8nbKrnj2Mh9lLPbtrp6nj6uP/TFyWvhHpmLb2Fx9elxjmg+UB9LQnxSDl9JZ6s/fMX4lUEK5+ZGZso2hh8pWzrMYHo4AFqdGIYIAj72fiy2B71Z3rX2AP1gN/lol8vLlsOUz8H83jMCvqwNs6ra9wy2Jil6TeWmQDnlBoAt6XuleWfxXn75eit65VkZ/dtuNfZe3Tqi8XYwrKxrS3hL643PtgFT/9SmbAgl+4h+h1H5PNQO+RJg28pZooDduniIDguG+/W8SDTVZHPn7X+l6rjc/YZvpYcOnQsvhs3sSTWdKmRbQ83jhVJDx3nvCV/smqWF5G6U17qSsVV0gymUCjgZDqkifAXx4zcoaeSWuzsCGaDhZwqJiheSMFC7AS0xFitPqhEireNtnx/UV/mF/9TQpv/Xx+cGHm04aZtjrf7/wIRORw4vjcJX6w+pP5rkpHUU/QNtzgD0sN1CxeoHOY51vAQeAG0fh7sGVbP+eSD02m5TUCxONQsnGDQZNvSleOxtaOCkqf3WP6/kKWNznyLVtw6gBR6iYfp8X0K4owz+KXrzSCbpfUncbc4I3z70HYW79BRE5Gg0Nd1gmuMy0MEFf2fgfy0zIpiqb+6vqFA+aKueALiRPXwA2Y3EWRqpi5QpaLAntIYQCGB22tc3QhVZ1pA/nGDl1q9EIOyzkZNiDPJDHU4M7Neyr1KJlL2HjRDlfa7HH1VBY0+CzjQKeUzkYLa5UaPmA9FxntdFiky7X92ibkr5/OZr6n1T2iSvThySbqEx7kFe+8uLok27V9GDk5VJ2zLd4eXlzY5pSJGoaI2HA2SKsD0El274cqLW1zrUIROBmgF4oeooDxjEogqk3HxNu4i+KaHuZxhLOk+qCY4yKboztfylLKtn1s/EWIn9NNrFx3mGE1a9o8QoROFtlGARcHcFVS5tmzkk3ZxyZ4zw/s3UiBt2BZqDo0CYXU5zCIBYAjbsVl6JdUmwoc9xhpnH1lxgVJCK3qFQ1ul8pKd2zD9zHYju4nc5S8K7WG8jaeD0MWipkWhKj99XC79EWKVcsD2Lx/nSvaxUSvuTOfT9IDHFdtBi5+Cx0s/ufflZkjPnqpwtcmA+lSG1hjbu4TonufMUA8ls9wqhewal2dbCQdjfNonsbgSCmmGnuZURhNP4AAXcP0PxTZwrNjyK5Byc0AmqWL9veQ9vinDfo3y7wx9asPad7eNv/fFluFTadAiA6yepAeuWl3HR4M7A4D1IC/uE6Vxa2C/kbVQ2Dm7jrf9CqM9psUiGLNvcB6fOulNG++HFBjJxGv5g8xTEDlfI3EVY+xKUBXu3HFhI7kO3H5cnUExabq8PWjx/DPDFV+cF/c2ai1buMqmAFPNPu+7v403KTYy9+nV9mFz187HJwPHkH6EmVhA8pkSs2xPPejK4NDYgi5QQA2xYBmlkMK+1WxoZJuuinWYkypU178joveKOSqlBizjnfnOEtDIG6I63zs+9DRSYydZL3vJaUHuvbUpzKBo3IcVvI/7qGMSZeQESuizPdDiZuTV05ml7UL05UiG2m7D00/0DuzIXbAPnwW8s6ZkfG4Lqd4QL7kZPPPMiGUPcpJrd4saiFfDjRlQi4JNKhbvah38M0DRdYI4mQufRjqyzlI5pmYDEJOeGUW0AfN7rS6sUKqDXSqNJyvjSRLW9q+9wtxaH+Tim7qw6222NhdmCcGC6ZNV8XdyAlpt31IScOmJgTxD6V1GZq9pCz1Xf00nBJVHVZj+29p/NKD5Wn5j2GXWm3CbDIIX78Vn3S+yKBrJevr8/AAFUlHQAzJGMaicEroC6oyWMtY2ny24YIGd9723ssW4lADdfd7UsuRt94ZHDICT5X/JukK7I0p7N9r4PCbhm2jjJks7KirHSKxllllJWzuK7TXzkxQ9sO7i812L8LpZoIlxcLIDdPCgaEVhunQ8gfdprnbeNmvE5Wx4b/mg1qO8UKYcbzPfATVq77ia3K8vRIn3BR9VLT4R7UM3pm1zeNEqiVT5g8wkTWEV59/0sDedL9z4ImgrtvxpgTF3k0ty7nUtGtpCRFIkMOArBarX7eMtZiMaVSK4gex+/iD9Naq2DTBhosvsquAKnnNbh4MTNJo0edaEQ+w/yZHOwKKMkf5Eq3/HT7zM4BZxCzC50kxCxVwETB8xEf5pa2148B3fFMy+J3iAwzbUkBArDCs/nhFYfhwhaGs3gGwGl/JobDcgvxqdxxwDoUcC12+ORPZyOP1CjZPE8dr0wUC2soqYcqDsHO5sC46Z8U8sq/OQA8zkcJWpETEufc62zKe3wl7RALvGGXEkz2XD5xo1L4382qBjLc+6Gnvgyws/nzl8UxbHVoa4KOhiIYAOamX37BSmwYVez5Xu0x1D78rHB6RNsabRhyGeZsULNhK54G0mJr8rDg7lENoBTTR9Z9BwlvlUJ1j/cBgjqhKH4FMnWuLJv1hovEKwGGaz/VFq4hQD87enFmQvcIu4WxM7nMf6LDnQyANiY/BD1vlmTZbQ9E1jxWMF30eHaLD8BXhob0S8+AcqQbhQADRsmOczfHhGpND+iGhfp0156N+a1lxDU2QngsrcAGa7OBXGyQ1PqmrblypJBU36VgbPupkVsaCap7BmjcZxWWKCOGJ3PXQHDPrS5p54oyy9tAWhKGG5gNm4=</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "OrderID":31,
+    "ShopID":1,
+    "ShopBranchID":1,
+    "Rate":5,
+    "Review":"good",
+    "CustomerID":56
+
+    
+    
+}</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 3 ("@0"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.OrderRaiting.OrderRaitingCOM.RateOrder(OrderRaitingModel oModel) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\OrderRaiting\OrderRaitingCOM.cs:line 44
+   at MWCoreAPI.Models.CustomersAPIs.CustomersOrdersAPI.CustomersOrdersAPI.RateOrder(RateOrderRequestAPI rateOrderRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersOrdersAPI\CustomersOrdersAPI.cs:line 159
+   at MWCoreAPI.Controllers.ServicesController.&lt;RateOrder&gt;d__104.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>7</ErrID>
+    <ErrDate>26-01-2021 16:39</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "OrderID":31,
+    "ShopID":1,
+    "ShopBranchID":1,
+    "Rate":5.0,
+    "Review":"good",
+    "CustomerID":56
+
+    
+    
+}</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: The incoming tabular data stream (TDS) remote procedure call (RPC) protocol stream is incorrect. Parameter 3 ("@0"): The supplied value is not a valid instance of data type float. Check the source data for invalid values. An example of an invalid value is data of numeric type with scale greater than precision.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at System.Data.Entity.Internal.LazyInternalContext.SaveChanges()
+   at System.Data.Entity.DbContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.OrderRaiting.OrderRaitingCOM.RateOrder(OrderRaitingModel oModel) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\OrderRaiting\OrderRaitingCOM.cs:line 44
+   at MWCoreAPI.Models.CustomersAPIs.CustomersOrdersAPI.CustomersOrdersAPI.RateOrder(RateOrderRequestAPI rateOrderRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersOrdersAPI\CustomersOrdersAPI.cs:line 159
+   at MWCoreAPI.Controllers.ServicesController.&lt;RateOrder&gt;d__104.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1451
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>8</ErrID>
+    <ErrDate>26-01-2021 16:45</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+    "CartID": 0,
+	"oCustomer":{
+		
+        "Email":"123456@gmail.com",        
+		"FirstName":"Thasni3",
+		"LastName":"Latheef4",
+		"PhoneCode":"00965",
+		"PhoneNumber":"5115848",
+		"IsOnlineCustomer":true,	
+		"IsSocial":true,
+        "SocialAuthID":1234,
+        "SocialMediaType":1,
+        "CustomerID":0,
+        "DeviceID":"111111111",
+		"DeviceToken":"111111111",
+		"DevicePlatform":1,
+		"DefaultLanguageID":1
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>String reference not set to an instance of a String.
+Parameter name: s</Msg>
+    <Trace>   at System.Text.Encoding.GetBytes(String s)
+   at MawaqaaCodeLibrary.Security.GetMd5Hash(String input)
+   at MWCore.Areas.MWCore.Models.Modules.Account.AccountCOM.GetMd5Hash(String input) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Account\AccountCOM.cs:line 48
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.SaveCustomer(CustomersModel oModel, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 539
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.LoginWithSocialMedia(CustomersModel oModel, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 468
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.LogingWithSocialMedia(CustomersRequestAPI oCustomersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 147
+   at MWCoreAPI.Controllers.ServicesController.&lt;LogingWithSocialMedia&gt;d__93.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1308
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>9</ErrID>
+    <ErrDate>26-01-2021 16:54</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+    "CartID": 0,
+	"oCustomer":{
+		
+        "Email":"123456@gmail.com",        
+		"FirstName":"Thasni3",
+		"LastName":"Latheef4",
+		"PhoneCode":"00965",
+		"PhoneNumber":"5115848",
+		"IsOnlineCustomer":true,	
+		"IsSocial":true,
+        "SocialAuthID":1234,
+        "SocialMediaType":1,
+        "CustomerID":0,
+        "DeviceID":"111111111",
+		"DeviceToken":"111111111",
+		"DevicePlatform":1,
+		"DefaultLanguageID":1
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.PagesKeys.PagesKeysCOM.GetPageKeyValueByName(String KeyName, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\PagesKeys\PagesKeysCOM.cs:line 94
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.LogingWithSocialMedia(CustomersRequestAPI oCustomersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 170
+   at MWCoreAPI.Controllers.ServicesController.&lt;LogingWithSocialMedia&gt;d__93.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1308
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>10</ErrID>
+    <ErrDate>27-01-2021 13:42</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"oCustomer":{
+		
+        "Email":"o.soubra@mawaqaa.com"
+       
+		
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int64' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Lookup`2.Create[TSource](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`3.GetEnumerator()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.CustomersWallets.CustomersWalletsCOM.GetCustomerWallet(Int64 CustomerID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\CustomersWallets\CustomersWalletsCOM.cs:line 15
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerFullDetails(Int64 CustomerID, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 402
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.ForgotPassword(String Email, Int32 SendingType, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 845
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.ForgotPasswordEmail(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 329
+   at MWCoreAPI.Controllers.ServicesController.&lt;ForgotPasswordEmail&gt;d__99.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1386
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>11</ErrID>
+    <ErrDate>27-01-2021 13:43</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"oCustomer":{
+		
+        "Email":"o.soubra@mawaqaa.com"
+       
+		
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int64' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Lookup`2.Create[TSource](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`3.GetEnumerator()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.CustomersWallets.CustomersWalletsCOM.GetCustomerWallet(Int64 CustomerID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\CustomersWallets\CustomersWalletsCOM.cs:line 15
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerFullDetails(Int64 CustomerID, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 402
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.ForgotPassword(String Email, Int32 SendingType, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 845
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.ForgotPasswordEmail(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 329
+   at MWCoreAPI.Controllers.ServicesController.&lt;ForgotPasswordEmail&gt;d__99.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1386
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>12</ErrID>
+    <ErrDate>27-01-2021 13:45</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"oCustomer":{
+		
+        "Email":"o.soubra@mawaqaa.com"
+       
+		
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int64' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Lookup`2.Create[TSource](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`3.GetEnumerator()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.CustomersWallets.CustomersWalletsCOM.GetCustomerWallet(Int64 CustomerID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\CustomersWallets\CustomersWalletsCOM.cs:line 15
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerFullDetails(Int64 CustomerID, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 402
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.ForgotPassword(String Email, Int32 SendingType, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 845
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.ForgotPasswordEmail(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 329
+   at MWCoreAPI.Controllers.ServicesController.&lt;ForgotPasswordEmail&gt;d__99.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1386
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>13</ErrID>
+    <ErrDate>27-01-2021 13:48</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"oCustomer":{
+		
+        "Email":"o.soubra@mawaqaa.com"
+       
+		
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int64' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Lookup`2.Create[TSource](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`3.GetEnumerator()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.CustomersWallets.CustomersWalletsCOM.GetCustomerWallet(Int64 CustomerID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\CustomersWallets\CustomersWalletsCOM.cs:line 15
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerFullDetails(Int64 CustomerID, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 402
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.ForgotPassword(String Email, Int32 SendingType, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 845
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.ForgotPasswordEmail(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 329
+   at MWCoreAPI.Controllers.ServicesController.&lt;ForgotPasswordEmail&gt;d__99.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1386
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>14</ErrID>
+    <ErrDate>27-01-2021 19:01</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+    "CartID":0,
+	"oCustomer":{
+		
+        "Email":"o.soubra@mawaqaa.com",
+        "Password":"12345678"
+		
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.Login(CustomersRequestAPI oCustomersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 54
+   at MWCoreAPI.Controllers.ServicesController.&lt;LoginCustomer&gt;d__91.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1282
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>15</ErrID>
+    <ErrDate>28-01-2021 11:33</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",    
+	"oCustomerAddress":{
+		
+       "AddressID":0,
+       "CustomerID":56,
+		"AddressTitle":"mine office5",
+        "AddressType":3,
+        "AreaID":1,
+        "BlockName":"block1522",
+        "BuildingName":"building1522",
+        "CityID":1,
+        "CountryID":1,
+        "Avenue":"sdfdsfs",
+"FloorName":"floor1",
+"Latitude":29.3768051786728,
+"Longitude":47.9776414146868,
+"OfficeName":"",
+"OtherNotes":"",
+"PhoneNumber":"9633530099",
+"PhoneCode":"0097",
+"StreetName":"street1",
+"DefaultAddress":true
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.SaveCustomerAddress(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 280
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerAddress&gt;d__90.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1268
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>16</ErrID>
+    <ErrDate>28-01-2021 11:35</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",    
+	"oCustomerAddress":{
+		
+       "AddressID":0,
+       "CustomerID":56,
+		"AddressTitle":"mine office6",
+        "AddressType":3,
+        "AreaID":1,
+        "BlockName":"block1522",
+        "BuildingName":"building1522",
+        "CityID":1,
+        "CountryID":1,
+        "Avenue":"sdfdsfs",
+"FloorName":"floor1",
+"Latitude":29.3768051786728,
+"Longitude":47.9776414146868,
+"OfficeName":"",
+"OtherNotes":"",
+"PhoneNumber":"9633530099",
+"PhoneCode":"0097",
+"StreetName":"street1",
+"DefaultAddress":true
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.SaveCustomerAddress(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 280
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerAddress&gt;d__90.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1268
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>17</ErrID>
+    <ErrDate>28-01-2021 13:33</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{"APIKey":"123456","LanguageID":1,"oCustomer":{"oCustomerCart":{"CartID":31892,"PaymentMethod":1,"NoCutlery":false,"ContactFree":false,"DeliveryType":2,"SelectedDeliveryTime":1,"SelectedDeliveryTimeValue":"0"},"oUserAddress":{"VerifiedAddress":true,"AddressTitle":"Appartment","AddressType":1,"AreaID":1,"BlockName":"Block 1","cityid":1,"countryid":1,"latitude":29.379277,"longitude":47.980271,"landlinenumber":"","phonenumber":"94981309","postalcode":"787","firstname":"alas","lastname":"salamah","email":"fyuk@lk.co"}}}</ErrPage>
+    <Msg>The model backing the 'MWCoreEntity' context has changed since the database was created. Consider using Code First Migrations to update the database (http://go.microsoft.com/fwlink/?LinkId=238269).</Msg>
+    <Trace>   at System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   at System.Data.Entity.Internal.InternalContext.&lt;&gt;c__DisplayClass66_0`1.&lt;CreateInitializationAction&gt;b__0()
+   at System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   at System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   at System.Data.Entity.Internal.LazyInternalContext.&lt;&gt;c.&lt;InitializeDatabase&gt;b__58_0(InternalContext c)
+   at System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   at System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   at System.Data.Entity.Internal.InternalContext.Initialize()
+   at System.Data.Entity.Internal.InternalContext.GetEntitySetAndBaseTypeForType(Type entityType)
+   at System.Data.Entity.Internal.Linq.InternalSet`1.Initialize()
+   at System.Data.Entity.Internal.Linq.InternalSet`1.get_InternalContext()
+   at System.Data.Entity.Infrastructure.DbQuery`1.System.Linq.IQueryable.get_Provider()
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.UpdateCustomerCartDetails(CustomerCartModel oCart, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 1024
+   at MWCoreAPI.Models.CustomersAPIs.CustomersOrdersAPI.CustomersOrdersAPI.Checkout(CheckoutRequestAPI checkoutRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersOrdersAPI\CustomersOrdersAPI.cs:line 29
+   at MWCoreAPI.Controllers.ServicesController.&lt;Checkout&gt;d__74.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1053
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>18</ErrID>
+    <ErrDate>28-01-2021 17:20</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{"APIKey":"123456","LanguageID":1,"oCustomer":{"oCustomerCart":{"CartID":31895,"PaymentMethod":3,"NoCutlery":false,"ContactFree":false,"DeliveryType":2,"SelectedDeliveryTime":1,"SelectedDeliveryTimeValue":"0"},"oUserAddress":{"VerifiedAddress":true,"AddressTitle":"Appartment","AddressType":1,"AreaID":1,"BlockName":"Block 1","cityid":1,"countryid":1,"latitude":29.379277,"longitude":47.980271,"landlinenumber":"","phonenumber":"94981309","postalcode":"787","firstname":"alas","lastname":"salamah","email":"fyuk@lk.co"}}}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.UpdateCustomerCartDetails(CustomerCartModel oCart, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 1025
+   at MWCoreAPI.Models.CustomersAPIs.CustomersOrdersAPI.CustomersOrdersAPI.Checkout(CheckoutRequestAPI checkoutRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersOrdersAPI\CustomersOrdersAPI.cs:line 29
+   at MWCoreAPI.Controllers.ServicesController.&lt;Checkout&gt;d__74.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1053
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>19</ErrID>
+    <ErrDate>28-01-2021 17:21</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{"APIKey":"123456","LanguageID":1,"oCustomer":{"oCustomerCart":{"CartID":31895,"PaymentMethod":3,"NoCutlery":false,"ContactFree":false,"DeliveryType":2,"SelectedDeliveryTime":1,"SelectedDeliveryTimeValue":"0"},"oUserAddress":{"VerifiedAddress":true,"AddressTitle":"Appartment","AddressType":1,"AreaID":1,"BlockName":"Block 1","cityid":1,"countryid":1,"latitude":29.379277,"longitude":47.980271,"landlinenumber":"","phonenumber":"94981309","postalcode":"787","firstname":"alas","lastname":"salamah","email":"fyuk@lk.co"}}}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCoreAPI.Models.CustomersAPIs.CustomersOrdersAPI.CustomersOrdersAPI.Checkout(CheckoutRequestAPI checkoutRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersOrdersAPI\CustomersOrdersAPI.cs:line 79
+   at MWCoreAPI.Controllers.ServicesController.&lt;Checkout&gt;d__74.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1053
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>20</ErrID>
+    <ErrDate>28-01-2021 22:54</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "ShopID":2,
+    "Latitude":29.379277,
+    "Longitude":47.980271,
+    "LanguageID":1,
+    "CartID":824
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=3130; handshake=50262; ; Inner Exception: The wait operation timed out</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Lookup`2.Create[TSource](IEnumerable`1 source, Func`2 keySelector, Func`2 elementSelector, IEqualityComparer`1 comparer)
+   at System.Linq.GroupedEnumerable`3.GetEnumerator()
+   at System.Linq.Enumerable.WhereSelectEnumerableIterator`2.MoveNext()
+   at System.Collections.Generic.List`1..ctor(IEnumerable`1 collection)
+   at System.Linq.Enumerable.ToList[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.ShopsBranches.ShopsBranchesCOM.IsLocationInCoverageArea(Double Latitude, Double Longitude, Int32 ShopBranchID, Int32 ShopID, Int32 CategoryID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\ShopsBranches\ShopsBranchesCOM.cs:line 855
+   at MWCore.Areas.MWCore.Models.Modules.ShopsBranches.ShopsBranchesCOM.GetNearestShopsBranch(Double Latitude, Double Longitude, Int32 ShopID, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\ShopsBranches\ShopsBranchesCOM.cs:line 181
+   at MWCoreAPI.Models.CustomersAPIs.RestaurantsAPI.RestaurantsAPI.GetNearestShopBranchDetails(RestaurantsRequestAPI oRestaurantsRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\RestaurantsAPI\RestaurantsAPI.cs:line 32
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetNearestShopBranchDetails&gt;d__58.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 829
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>21</ErrID>
+    <ErrDate>01-02-2021 14:45</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "CartID":32032
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerIDByToken(String Token) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 1075
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.GetCustomerCart(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 89
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetCustomerCart&gt;d__66.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 941
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>22</ErrID>
+    <ErrDate>01-02-2021 14:46</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "CartID":32032
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerIDByToken(String Token) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 1075
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.GetCustomerCart(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 89
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetCustomerCart&gt;d__66.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 941
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>23</ErrID>
+    <ErrDate>01-02-2021 14:48</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "CartID":32032
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerIDByToken(String Token) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 1075
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.GetCustomerCart(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 89
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetCustomerCart&gt;d__66.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 941
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>24</ErrID>
+    <ErrDate>01-02-2021 14:57</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "CartID":32032
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.GetCustomerIDByToken(String Token) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 1075
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.GetCustomerCart(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 89
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetCustomerCart&gt;d__66.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 941
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>25</ErrID>
+    <ErrDate>01-02-2021 17:09</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",      
+	"oCustomer":{
+		"DefaultCountryID":1,
+		"DefaultCurrencyID":1,
+        "Email":"alaa@gmail.com",
+        "Password":"123456",
+		"FirstName":"Thasneem",
+		"LastName":"Latheef",
+		"PhoneCode":"0091",
+		"PhoneNumber":"1231234",
+		"IsOnlineCustomer":true,
+		"ReceiveNotifications":true,
+		"Status":true,
+        "CustomerID":56
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_3(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.Any[TSource](IQueryable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.SaveCustomer(CustomersModel oModel, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 518
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.UpdateCustomerProfile(CustomersRequestAPI customersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 100
+   at MWCoreAPI.Controllers.ServicesController.&lt;UpdateCustomerProfile&gt;d__90.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1267
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>26</ErrID>
+    <ErrDate>01-02-2021 18:00</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+    "CartID":"0",
+	"oCustomer":{
+		
+        "Email":"alaa@mawaqaa.com",
+        "Password":"1234567"
+		
+		
+	},
+	"LanguageID":1
+}</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server); Inner Exception: The network path was not found</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.&lt;&gt;c__14`1.&lt;GetElementFunction&gt;b__14_1(IEnumerable`1 sequence)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.ExecuteSingle[TResult](IEnumerable`1 query, Expression queryRoot)
+   at System.Data.Entity.Core.Objects.ELinq.ObjectQueryProvider.System.Linq.IQueryProvider.Execute[TResult](Expression expression)
+   at System.Data.Entity.Internal.Linq.DbQueryProvider.Execute[TResult](Expression expression)
+   at System.Linq.Queryable.FirstOrDefault[TSource](IQueryable`1 source, Expression`1 predicate)
+   at MWCore.Areas.MWCore.Models.Modules.Customers.CustomersCOM.Login(CustomersModel oModel, Int32 LanguageID) in D:\BeepBeepApp\BeepBeepApp\MWCore\Areas\MWCore\Models\Modules\Customers\CustomersCOM.cs:line 831
+   at MWCoreAPI.Models.CustomersAPIs.CustomersAPI.CustomersAPI.Login(CustomersRequestAPI oCustomersRequestAPI) in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Models\CustomersAPIs\CustomersAPI\CustomersAPI.cs:line 19
+   at MWCoreAPI.Controllers.ServicesController.&lt;LoginCustomer&gt;d__93.MoveNext() in D:\BeepBeepApp\BeepBeepApp\MWCoreAPI\Controllers\ServicesController.cs:line 1307
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+</Mawaqaa-Tracking>

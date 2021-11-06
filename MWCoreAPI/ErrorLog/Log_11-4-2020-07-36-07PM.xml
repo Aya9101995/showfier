@@ -1,0 +1,746 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="18" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>26/01/2020 11:47</ErrDate>
+    <UserID>sUumSOfWk5CvQiwdRLRBVTqBJcyyY5PxAKiJbDORlAXqSY7ekGnlA7e+z7myRVc/Tv8K0XvHW6RO+rcPaO7ZnZHpEgRCLT1Ok3kDufNI4prtAN0HjShPMRQmpWx32+swMD3BZgZ7CLSBRbmhTCpBohzUfZEHh4RoIcX1CqAwBLUIfq+iN36QACGiir5n9AdvMYSdBOcDN2eNxh9t8j5pSyZnbaOFujS1Imn7lHnYAofUjKger9e61t2yisydW/KsiHi8wQ+qIvel7/oubIetGxBcc++K9rPTGrrlxvzM38via2MNqAGtagGTl/El+MvfB2imRwxb/bqU/IYHqTj+8VnwMC5UonbAGDxoRCVYGe8KF2aCoA5bJH4Ia4qRhPlTjhc0PJ2U2uP9syLRJ26C0Mv3DvqzGd946ig7cnNEbXEPYXtGLbEcH924GTPIZMtQNdOdTtEpgDrW0YzZX6lWMllEeyx/pxLAHiyLClhxFts3+5eg13HItBUCZoQ40jf/gGadJI1oaxmAGJIB3iv6N5Ci/ul0KR5oQ4g4bbsIVi7Xkf6Twh5bLG0TXhxHE+FSRoV28LiXjO3qFmOGtuvYbhNL2tZ+ffQln6eAxGg72h6oS7GYC0xddKPWcf5t6O/WPMbbUm/OhzLBcNGFjSSTguUeC+qEpMBBIHtk/asShXcS2tJ3khJeGJXQxFwg0GvbuUqskj2uazQ3rrG2/u+f3jWIL4pQdZBP7VfRQovHNiSBHnK+PfJ37WttFfQH62EpF6ra8TF/at6cz4CtT3KILjCOTnl9tAEuuSBozmLMs+aC0svDYiUlx6zTcR3L9xrzjjxXbzhXnQdmAmznEshpylvSxETsxW8zrH/R+BT+z43zBxPq4LGzlr9JDhnl+5zJ4XHvrLI9bj//eTvFLJqtgPmcV5mDA0ceUpX9WsM6kL4aAxPnRC02Ig5CDrlAi2VxR1T/NQNJHdTxKfUqTjg1a5YVX1vjvBl94kNkzcDwmfmyDYQbXs6cTs6VWQiXM3ocWCfxO8rew3Yvfl5/qrpJxtK+IKyo8FuKMEK0+0m77/Eye+dpm7m15l6CTaSX+It43mij+EE4XZuZQkrBZ7eL/tBWJPwcrWzCcFVsAC9YNCE0HW4Vm6sGmNJdvm/QZeIc57tdPnXNFA+JOeUZHYzjpElYPsmMFc1/plA1+f8M/TzwL84xTJAxEw8O+Z9gJ/PkjIWfRBNt0O6bnG8e3YFceUQoUDW2BaQAQ25sXZBKYPbJ3WchOc0aI5W0eNBntAbFyhx6ZMpKI2C6fSozGdTy20mvNku6e1HtUwGAFs+tBrlXbRlYpFEbiB1FYQL2pvL5ARHvcBchqLx83SCZtBnAUKHLPm3VfTXjQ8heN4BbBSrkARhucEjDi/kwG6ie2nGI/l2J0CUtvUTW0TuSOXPR0q8HM6Af/4XwJDvxHXtooe+JqtFhB/OPFZtmTBkPHHBdCcLzTvgW9qgB3xRKmEmEB01gwgilT4w/Hb3ybP6g81BUyQ4LZGn+OB8W/moVvDcjAQ9s3PjOSRYk6dy7x1mgNUyTrlBciIycIz/KdyLSg7SSNR0bTOcu3fgCeh2PixF8JnAZ/CFS+VbtVqZQSPsgr/LWa+JzUB+7T/3vBogHOLnpl/lv2EilVy47XxqNgT+xge6PlIY6bt+8yQOltq9/YzOJZnesFIh3QkKadpb9aIx04jFiWd2WTU0bytuXeKxpz5i+iPi9ScuE37mHBk6urcFQJtaZPbMbGvhCSNrI0AEnsyIOhiwqimzuUaeXvxdH5GeQH1M8vgJ7WCVsBiILiSEAStZ1W2X30JQPNRgDFUSF6as4Y6qSGUh6Zc9nPfgxqls6TpWZnJq8Q1aVIYJ+yWxYdd89rBaBBIQIB+hRim229MuaiAzQa1hYMfM/m85PvU558sOPBvsYErE5Vg0J5UR1xTnUYZ/js3Q31gS1NH6aUIOSF3pha6I5Z8Sf3jEAh5nxUbYgZt5niY+fW+Jw/viPcyQRq549ARywYYWoMij/mlZTYra0r/cNPfRx2SmGzNYeNkEJjjOLuONxS6KOOC/yg9JOVDmibIJ68V5AsSsRZA7EAFvBaNakues+dX90VPmDKsYafO1ah3gt6xfGkQJD8Iwr2yZfjQswriUhRyMIWXfPvDDt16WNeqxiErIuTmA8/uewnv1ThG0y9TnYXtvYjCEegqTcbjFeCQJ5HYqowuCOcSCdICu5FCoG0wKOq6QfXzv+36eNZBo5Lcu87cAzZZWyhheoieN+uMDKw4zlQuo3t6ewWQlduKuMlAVJ/S73OlAg6FfEPgDYbTYpuJvva8lKXajGt5NSb8maT5K/2v+CJ68Thapur1vfEZ9G7+f6BjpR4UwDGVPcICQZKk4XO/UjaTTcpF1jpMznb3coR7lctudoTeOXDLHa5owHtHbtAvQydKbZxJOQ/BvLDJKQs0kyvToYYUYePCJS9sn0clFC6OgoZ64gtLcuGxOdcEOhmKk2obf6eNuUzX55uVfc1XCCdYOg7xarAoh/IhLjl5VhmG7aFn/qxGpykw+oMxBjJpzbs7znvXUK7vBvRRKq03JcjNaKMwH0ipakHMAl2a5DTNwSgU47VQ5i/5fEX42zb57E8p0C5gSrqieNvjiStP+QicLoR/qgYopWH/1gW3Onnv57RMDbav8iCd3CD6melvqsSu2UdkgTFuBpt9578aIUy1GkEtD9HpreS84=</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.38503996607, "Longitude": 47.991659449818, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>Validation failed for one or more entities. See 'EntityValidationErrors' property for more details.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.Notifications.NotificationsCOM.&lt;SendTaskNotification&gt;d__10.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\Notifications\NotificationsCOM.cs:line 478
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 676
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 179
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>1</ErrID>
+    <ErrDate>29/01/2020 18:57</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>2</ErrID>
+    <ErrDate>29/01/2020 18:57</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>3</ErrID>
+    <ErrDate>29/01/2020 18:57</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>4</ErrID>
+    <ErrDate>29/01/2020 19:01</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>5</ErrID>
+    <ErrDate>29/01/2020 19:02</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 405
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>6</ErrID>
+    <ErrDate>29/01/2020 19:02</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>7</ErrID>
+    <ErrDate>29/01/2020 19:16</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: SqlDbType.Time overflow.  Value '1.14:14:15.8534914' is out of range.  Must be between 00:00:00.0000000 and 23:59:59.9999999.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>8</ErrID>
+    <ErrDate>29/01/2020 19:18</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: SqlDbType.Time overflow.  Value '1.14:15:29.6835045' is out of range.  Must be between 00:00:00.0000000 and 23:59:59.9999999.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>9</ErrID>
+    <ErrDate>29/01/2020 19:19</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: SqlDbType.Time overflow.  Value '2.09:12:51.9603440' is out of range.  Must be between 00:00:00.0000000 and 23:59:59.9999999.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>10</ErrID>
+    <ErrDate>29/01/2020 19:20</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>An error occurred while updating the entries. See the inner exception for details.; Inner Exception: An error occurred while updating the entries. See the inner exception for details.; Inner Exception: SqlDbType.Time overflow.  Value '1.14:16:34.8638788' is out of range.  Must be between 00:00:00.0000000 and 23:59:59.9999999.</Msg>
+    <Trace>   at System.Data.Entity.Internal.InternalContext.SaveChanges()
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 412
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>11</ErrID>
+    <ErrDate>29/01/2020 19:23</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "Lalatitude": 29.3255011, "Longitude": 48.0227568, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: Connection Timeout Expired.  The timeout period elapsed while attempting to consume the pre-login handshake acknowledgement.  This could be because the pre-login handshake failed or the server was unable to respond back in time.  The duration spent while attempting to connect to this server was - [Pre-Login] initialization=67549; handshake=0; ; Inner Exception: The wait operation timed out</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.ApplyRoutingForDriver(Int32 MaintenaceDriverID, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 404
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;CheckDriverForTask&gt;d__13.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 670
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;GetDriverCurrentTask&gt;d__8.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 181
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;GetDriverCurrentTask&gt;d__30.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 411
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>12</ErrID>
+    <ErrDate>27/02/2020 04:06</ErrDate>
+    <UserID>3</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{ "oMaintenanceRequestsTask": { "ServiceTypeID": 1, "Lalatitude": 29.324828786802779, "Longitude": 48.025451973125364 }, "APIKey": "123456", "UserID": 0, "APIStatus": 0, "LanguageID": 1 }	
+</ErrPage>
+    <Msg>The underlying provider failed on Open.; Inner Exception: A connection was successfully established with the server, but then an error occurred during the pre-login handshake. (provider: SSL Provider, error: 0 - The wait operation timed out.); Inner Exception: The wait operation timed out</Msg>
+    <Trace>   at System.Data.Entity.Core.EntityClient.EntityConnection.Open()
+   at System.Data.Entity.Core.Objects.ObjectContext.EnsureConnection(Boolean shouldMonitorTransactions)
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.PagesKeys.PagesKeysCOM.GetPageKeyValueByName(String KeyName, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\PagesKeys\PagesKeysCOM.cs:line 94
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;RequestMaintenanceTaskForDriver&gt;d__2.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 70
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;RequestMaintenanceTaskForDriver&gt;d__24.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 327
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>13</ErrID>
+    <ErrDate>14/03/2020 15:39</ErrDate>
+    <UserID>3</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"MaintenanceRequestTaskID":6,
+	"Rating":1,
+	"RefusedRaiting":false
+}</ErrPage>
+    <Msg>Non-static method requires a target.</Msg>
+    <Trace>   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object&amp; memberValue)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression&amp; constantExpression)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.RateMaintenanceTask(MaintenanceRequestsTasksRatingModel oMaintenanceRequestsTasksRatingModel) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 2366
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.RateMaintenanceTask(MaintenanceRequestsTasksRatingRequest oMaintenanceRequestsTasksRatingRequest) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 228
+   at MWCoreAPI.Controllers.ServicesController.&lt;RateMaintenanceTask&gt;d__31.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 426
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>14</ErrID>
+    <ErrDate>14/03/2020 15:39</ErrDate>
+    <UserID>3</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"MaintenanceRequestTaskID":6,
+	"Rating":1,
+	"RefusedRaiting":false
+}</ErrPage>
+    <Msg>Non-static method requires a target.</Msg>
+    <Trace>   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object&amp; memberValue)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression&amp; constantExpression)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.RateMaintenanceTask(MaintenanceRequestsTasksRatingModel oMaintenanceRequestsTasksRatingModel) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 2366
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.RateMaintenanceTask(MaintenanceRequestsTasksRatingRequest oMaintenanceRequestsTasksRatingRequest) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 228
+   at MWCoreAPI.Controllers.ServicesController.&lt;RateMaintenanceTask&gt;d__31.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 426
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>15</ErrID>
+    <ErrDate>14/03/2020 15:40</ErrDate>
+    <UserID>3</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+	"APIKey":"123456",
+	"MaintenanceRequestTaskID":6,
+	"Rating":1,
+	"RefusedRaiting":false
+}</ErrPage>
+    <Msg>Non-static method requires a target.</Msg>
+    <Trace>   at System.Reflection.RuntimeMethodInfo.CheckConsistency(Object target)
+   at System.Reflection.RuntimeMethodInfo.InvokeArgumentsCheck(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimeMethodInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.Reflection.RuntimePropertyInfo.GetValue(Object obj, Object[] index)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryGetFieldOrPropertyValue(MemberExpression me, Object instance, Object&amp; memberValue)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.TryEvaluatePath(Expression expression, ConstantExpression&amp; constantExpression)
+   at System.Data.Entity.Core.Objects.ELinq.QueryParameterExpression.EvaluateParameter(Object[] arguments)
+   at System.Data.Entity.Core.Objects.ELinq.ELinqQueryState.GetExecutionPlan(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__1()
+   at System.Data.Entity.Core.Objects.ObjectContext.ExecuteInTransaction[T](Func`1 func, IDbExecutionStrategy executionStrategy, Boolean startLocalTransaction, Boolean releaseConnectionOnSuccess)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;&gt;c__DisplayClass41_0.&lt;GetResults&gt;b__0()
+   at System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.GetResults(Nullable`1 forMergeOption)
+   at System.Data.Entity.Core.Objects.ObjectQuery`1.&lt;System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator&gt;b__31_0()
+   at System.Data.Entity.Internal.LazyEnumerator`1.MoveNext()
+   at System.Linq.Enumerable.FirstOrDefault[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.RateMaintenanceTask(MaintenanceRequestsTasksRatingModel oMaintenanceRequestsTasksRatingModel) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 2366
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.RateMaintenanceTask(MaintenanceRequestsTasksRatingRequest oMaintenanceRequestsTasksRatingRequest) in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 228
+   at MWCoreAPI.Controllers.ServicesController.&lt;RateMaintenanceTask&gt;d__31.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 426
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>16</ErrID>
+    <ErrDate>17/03/2020 16:48</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "oMaintenanceRequestsTask": {
+        "MaintenanceRequestTaskID": 3167,
+        "Notes": null,
+        "Address": null,
+        "lstRequests": [
+            {
+                "MaintenanceRequestID": 4168,
+                "VehicleID": 12,
+                "kilometers": "555",
+                "Notes": "",
+                "CancelationReasonID": 1,
+                "CancelationNotes": null,
+                "lstMaintenanceRequestsServices":[{
+                	"ServiceID":1
+                },
+                {
+                	"ServiceID":2
+                }]
+            }
+        ],
+        "CancelationReasonID": 1,
+        "CancelationNotes": null
+    },
+    "APIKey": "123456"
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCore.Areas.MWCore.Models.Modules.MaintenanceRequests.MaintenanceRequestsCOM.&lt;FinalizeTaskAsync&gt;d__27.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCore\Areas\MWCore\Models\Modules\MaintenanceRequests\MaintenanceRequestsCOM.cs:line 1950
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Models.APIs.MaintenanceAPI.MaintenanceAPI.&lt;FinalizeTaskAsync&gt;d__4.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Models\APIs\MaintenanceAPI\MaintenanceAPI.cs:line 107
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at MWCoreAPI.Controllers.ServicesController.&lt;FinalizeTask&gt;d__26.MoveNext() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 356
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>17</ErrID>
+    <ErrDate>18/03/2020 15:55</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage />
+    <Msg>Could not find a part of the path 'D:\Projects\BeebBeebApp\Web\assets\images\Uploads'.</Msg>
+    <Trace>   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.FileSystemEnumerableIterator`1.CommonInit()
+   at System.IO.FileSystemEnumerableIterator`1..ctor(String path, String originalUserPath, String searchPattern, SearchOption searchOption, SearchResultHandler`1 resultHandler, Boolean checkHost)
+   at System.IO.Directory.GetFiles(String path, String searchPattern)
+   at MWCoreAPI.Controllers.ServicesController.GetImages() in D:\TFS_Projects_New\MW_Projects\BeebBeebApp\MWCoreAPI\Controllers\ServicesController.cs:line 524
+   at lambda_method(Closure , Object , Object[] )
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ActionExecutor.&lt;&gt;c__DisplayClass6_2.&lt;GetExecutor&gt;b__2(Object instance, Object[] methodParameters)
+   at System.Web.Http.Controllers.ReflectedHttpActionDescriptor.ExecuteAsync(HttpControllerContext controllerContext, IDictionary`2 arguments, CancellationToken cancellationToken)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+</Mawaqaa-Tracking>

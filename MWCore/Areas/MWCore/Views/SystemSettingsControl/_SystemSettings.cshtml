@@ -1,0 +1,81 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+<input type="hidden" id="hdnPromoType" value="@Model.oSystemSettings.PromoCodeType" />
+<input type="hidden" id="hdnPromoDiscountType" value="@Model.oSystemSettings.PromoCodeDiscountType" />
+@using (Ajax.BeginForm("SaveSystemSettings", "SystemSettingsControl", new AjaxOptions { UpdateTargetId = "divSystemSettings", OnSuccess = "unloadModal('System Settings')" }, new { @class = "form-horizontal" }))
+{
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Type</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(m => m.oSystemSettings.PromoCodeType, Model.lstPromoCodesTypes, "-- Select --", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.oSystemSettings.PromoCodeType, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div class="form-group" id="divDiscountType" style="display:none;">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Discount Type</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(m => m.oSystemSettings.PromoCodeDiscountType, Model.lstPromoCodesDiscountTypes, "-- Select --", new { @class = "form-control" })
+            @Html.ValidationMessageFor(m => m.oSystemSettings.PromoCodeDiscountType, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div class="form-group" id="divDiscountTypeValue" style="display:none;">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Discount Value</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oSystemSettings.PromoCodeDicountValue, new { @class = "form-control", @placeholder = "Value" })
+            @Html.ValidationMessageFor(m => m.oSystemSettings.PromoCodeDicountValue, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Max Product Price</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oSystemSettings.MaxPrice, new { @class = "form-control", @placeholder = "Max Product Price" })
+            @Html.ValidationMessageFor(m => m.oSystemSettings.MaxPrice, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Is Chat Module Enabled?</label>
+        <div class="col-sm-10">
+            @Html.CheckBoxFor(m => m.oSystemSettings.IsChatEnabled, new { @class = "form-control"})
+            @Html.ValidationMessageFor(m => m.oSystemSettings.IsChatEnabled, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+
+    <div style="text-align: center;">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+        <br />
+        <span id="spResult" style="color:orange;">@ViewBag.Result</span>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(document).ready(function () {
+        @if(Model.oSystemSettings.ID>0)
+        {
+            @: var PromoType = $("#hdnPromoType").val();
+            @: if (PromoType == 1)
+            @: {
+            @:      $("#divDiscountType").css("display", "none");
+            @:      $("#divDiscountTypeValue").css("display", "none");
+            @: }
+            @: else
+            @: {
+            @:      $("#divDiscountType").css("display", "block");
+            @:      $("#divDiscountTypeValue").css("display", "block");
+            @: }
+        }
+
+        $("#oSystemSettings_PromoCodeType").on("change", function () {
+            var SelectedType = $(this).val();
+            if (SelectedType == 1) {
+                $("#divDiscountType").css("display", "none");
+                $("#divDiscountTypeValue").css("display", "none");
+            }
+            else {
+                $("#divDiscountType").css("display", "block");
+                $("#divDiscountTypeValue").css("display", "block");
+            }
+        });
+    });
+</script>

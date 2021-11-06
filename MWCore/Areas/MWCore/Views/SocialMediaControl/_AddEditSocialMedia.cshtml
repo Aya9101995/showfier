@@ -1,0 +1,148 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oSocialMedia.ID > 0)
+        {
+            <text> Edit Social Media</text>
+
+        }
+        else
+        {
+            <text>Add Social Media</text>
+
+        }
+    </h4>
+</div>
+
+@using (Ajax.BeginForm("SaveSocialMedia", "SocialMediaControl", new AjaxOptions { UpdateTargetId = "divSocialMedia", OnBegin = "PreSave", OnSuccess = "unloadModal('Social Media')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oSocialMedia.ID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oSocialMedia.SocialMediaType, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.oSocialMedia.SocialMediaType, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Link</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oSocialMedia.SocialMediaLink, new { @class = "form-control", @placeholder = "Link" })
+                @Html.ValidationMessageFor(m => m.oSocialMedia.SocialMediaLink, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Image</label>
+            <div class="col-sm-10">
+                @if (Model.oSocialMedia.ID > 0)
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Social Media Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.EditFiles, "", new { @style = "color:orange;" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.Files, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Social Media Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.Files, "", new { @style = "color:orange;" })
+                }
+                @Html.Image("/assets/images/Uploads/" + @Model.oSocialMedia.SocialMediaIcon + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                @Html.HiddenFor(m => m.oSocialMedia.SocialMediaIcon, new { @id = "HdnImg" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Sort Order</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oSocialMedia.SortOrder, new { @class = "form-control", @placeholder = "Sort Order" })
+                @Html.ValidationMessageFor(m => m.oSocialMedia.SortOrder, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    @*<div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oSocialMedia.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>*@
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script type="text/javascript">
+    $.validator.unobtrusive.adapters.add('filetype', ['validtypes'], function (options) {
+        options.rules['filetype'] = { validtypes: options.params.validtypes.split(',') };
+        options.messages['filetype'] = options.message;
+    });
+
+    $.validator.addMethod("filetype", function (value, element, param) {
+        for (var i = 0; i < element.files.length; i++) {
+            var extension = getFileExtension(element.files[0].name);
+            if ($.inArray(extension, param.validtypes) === -1) {
+                return false;
+            }
+        }
+        return true;
+    });
+
+    function getFileExtension(fileName) {
+        if (/[.]/.exec(fileName)) {
+            return /[^.]+$/.exec(fileName)[0].toLowerCase();
+        }
+        return null;
+    }
+    $(document).ready(function () {
+        $("#ImageUpload").change(function () {
+            
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#HdnImg').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+    });
+</script>

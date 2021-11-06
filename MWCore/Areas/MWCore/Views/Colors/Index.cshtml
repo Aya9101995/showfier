@@ -1,0 +1,10 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+@{
+    ViewBag.Title = "Colors";
+}
+<script src="@Url.Content("~/Scripts/jquery-3.6.0.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+<div id="divColors">
+    @{ Html.RenderPartial("_Colors", Model);}
+</div>

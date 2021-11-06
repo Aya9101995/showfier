@@ -1,0 +1,14 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+@{
+    ViewBag.Title = "Tutorials";
+}
+<script src="@Url.Content("~/Scripts/jquery-3.6.0.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+
+<div id="divTutorials">
+    @{ Html.RenderPartial("_Tutorials", Model);}
+</div>
+
+
+

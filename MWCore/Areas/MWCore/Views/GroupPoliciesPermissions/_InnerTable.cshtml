@@ -1,0 +1,63 @@
+﻿@model Tuple<MWCore.Areas.MWCore.Models.MWCoreModel, MWCore.Areas.MWCore.Models.Modules.GroupPoliciesPermissions.GroupPoliciesPermessionClass>
+
+<tr>
+    <td>
+        @if (Model.Item1.lstGroupPoliciesPermessionClass.Where(x => x.ParentID == Model.Item2.PageId).Count() > 0)
+        {
+            <img src="@Url.Content("~/Areas/MWCore/assets/images/plus.png")" />
+            <div style="display:none">
+                <table cellpadding="0" cellspacing="0" class="table table-users table-bordered table-hover">
+                    <tr>
+                        <th style="width:50px;"></th>
+                        <th>Page Name</th>
+                        <th>Permission</th>
+                    </tr>
+                    @foreach (var item2 in Model.Item1.lstGroupPoliciesPermessionClass.Where(x => x.ParentID == Model.Item2.PageId))
+                    {
+                        if (Model.Item1.lstGroupPoliciesPermessionClass.Where(x => x.ParentID == item2.PageId).Count() > 0)
+                        {
+                            { Html.RenderPartial("_InnerTable", Tuple.Create<MWCore.Areas.MWCore.Models.MWCoreModel, MWCore.Areas.MWCore.Models.Modules.GroupPoliciesPermissions.GroupPoliciesPermessionClass>(Model.Item1, item2)); }
+                        }
+                        else
+                        {
+                            <tr>
+                                <td></td>
+                                <td>@item2.PageTitle</td>
+                                <td>
+                                    <label>
+                                        @*@Html.CheckBoxFor(m => m.Item1.lstGroupPoliciesPermessionClass[MWCore.Areas.MWCore.Controllers.GroupPoliciesPermissionsController.GetIndexOf(item2.PageName, item2.GroupId)].isChecked, new { @class = "chkpage" })*@
+                                        <input type="checkbox" name="SelectedPages_@item2.PageId" class="chkpage"
+                                            value="@item2.PageId" checked="@item2.isChecked" onchange="SavePermission(this)" />
+                                    </label>
+
+                                </td>
+                            </tr>
+                        }
+
+                    }
+                </table>
+            </div>
+        }
+
+        @*@Html.HiddenFor(m => Model.Item2.PageId, new { @id = "hdpage" })*@
+    </td>
+    <td>
+        @if (Model.Item1.lstGroupPoliciesPermessionClass.Where(x => x.ParentID == Model.Item2.PageId).Count() > 0)
+        {
+            <strong>@Model.Item2.PageTitle</strong>
+        }
+        else
+        {
+            <span>@Model.Item2.PageTitle</span>
+        }
+
+    </td>
+    <td>
+        <label>
+            @*@Html.CheckBoxFor(m => m.Item1.lstGroupPoliciesPermessionClass[MWCore.Areas.MWCore.Controllers.GroupPoliciesPermissionsController.GetIndexOf(Model.Item2.PageName, Model.Item2.GroupId)].isChecked, new { @class = "chkpage" })*@
+            <input type="checkbox" name="SelectedPages_@Model.Item2.PageId" class="chkpage"
+                value="@Model.Item2.PageId" checked="@Model.Item2.isChecked" onchange="SavePermission(this)" />
+        </label>
+
+    </td>
+</tr>

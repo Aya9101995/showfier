@@ -1,0 +1,147 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oFAQ.FAQID > 0)
+        {
+            <text> Edit FAQ</text>
+
+        }
+        else
+        {
+            <text>Add New FAQ</text>
+
+        }
+    </h4>
+</div>
+
+@using (Ajax.BeginForm("SaveFAQ", "FAQControl", new AjaxOptions { UpdateTargetId = "divFAQ", OnBegin = "PreSave", OnSuccess = "unloadModal('FAQ')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oFAQ.FAQID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Question</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oFAQ.FAQQuetion, new { @class = "form-control", @placeholder = "Question" })
+                @Html.ValidationMessageFor(m => m.oFAQ.FAQQuetion, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Answer</label>
+            <div class="col-sm-10">
+                @Html.TextAreaFor(m => m.oFAQ.FAQAnswer, new { @id = "tbFAQDetails", @name = "tbFAQDetails", @class = "form-control", @placeholder = "FAQ Details" })
+                @Html.ValidationMessageFor(m => m.oFAQ.FAQAnswer, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Sort Order</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oFAQ.SortOrder, new { @class = "form-control", @placeholder = "Sort Order", @type = "number", @minValue = 0, id = "sortOrder" })
+                @Html.ValidationMessageFor(m => m.oFAQ.SortOrder, "", new { @style = "color:orange;" })
+            </div>
+            <div class="col-sm-9" id="messageSortOrder" style="display:none; margin-left: 91px;">
+                <label style="color:orange;width:100% ;text-align: left!important;">@MWCore.Areas.MWCore.Resources.Validations.SortOrder </label>
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oFAQ.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.modal-dialog').css("width", "80%");
+    });
+</script>
+
+<script>
+
+    $( document ).ready(function() {
+
+        var number = document.getElementById('sortOrder');
+
+        // Listen for input event on numInput.
+        number.onkeydown = function(e) {
+            if(!((e.keyCode > 95 && e.keyCode < 106)
+              || (e.keyCode > 47 && e.keyCode < 58)
+              || e.keyCode == 8)) {
+                return false;
+            }
+        }
+            if (@Model.oFAQ.FAQID== 0)
+            {
+                var OrderList = @Html.Raw(Json.Encode(Model.lstSortOrder));
+                if (OrderList.length != null && OrderList.length > 0) {
+
+                    $('#sortOrder').val(OrderList[OrderList.length - 1] + 1);
+                }
+                else{
+                    $('#sortOrder').val(1);
+                }
+            }
+
+
+
+
+    });
+
+    function HideProgressMessage() {
+        $('#btnSave').prop("disabled", false);
+        //$('#btnSave').text("SaveChanges");
+        unloadModal();
+    };
+
+    $(function () {
+        $("form").submit(function (e) {
+            if ($(this).valid()) {  //<<< I was missing this check
+                $('#btnSave').prop("disabled", true);
+                $('#btnSave').text('Wait...');
+            }
+
+        });
+    });
+
+    $("#sortOrder").on("change", function () {
+        var sortOrder = $('#sortOrder').val();
+
+        if (sortOrder != "" )
+        {
+            var OrderList = @Html.Raw(Json.Encode(Model.lstSortOrder));
+            var flag =false;
+            for (var i = 0; i < OrderList.length; i++) {
+                if(OrderList[i]== sortOrder){
+                    flag=true;
+
+                    break;
+                }
+
+
+
+            }
+            if(flag==true){
+                document.getElementById('messageSortOrder').style.display = 'block';
+                $('#btnSave').prop("disabled", true);
+            }
+            else{
+                document.getElementById('messageSortOrder').style.display = 'none';
+                $('#btnSave').prop("disabled", false);
+            }
+        }
+
+    });
+
+</script>

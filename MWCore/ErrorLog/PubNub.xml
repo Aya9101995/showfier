@@ -1,0 +1,33 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="3" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>01/07/2020 15:38</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_62"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_62</ErrPage>
+    <Msg>{"OrderID":20364,"DriverID":62,"RequestedDate":"\/Date(1593606694360)\/","Latitude":29.326863,"Longitude":48.034954,"ContactName":"Ibrahim Elgendy","ContactPhoneNumber":null,"ApiToken":null,"APIKey":null,"Action":7}</Msg>
+    <Trace>{"Timetoken":15936071288978032}</Trace>
+  </Error>
+  <Error>
+    <ErrID>1</ErrID>
+    <ErrDate>01/07/2020 15:38</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_62"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_62</ErrPage>
+    <Msg>{"OrderID":20364,"DriverID":62,"RequestedDate":"\/Date(1593606694360)\/","Latitude":29.326863,"Longitude":48.034954,"ContactName":"Ibrahim Elgendy","ContactPhoneNumber":"00965123456","ApiToken":null,"APIKey":null,"Action":7}</Msg>
+    <Trace>{"Timetoken":15936071302517358}</Trace>
+  </Error>
+  <Error>
+    <ErrID>2</ErrID>
+    <ErrDate>01/07/2020 15:38</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_62"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_62</ErrPage>
+    <Msg>{"OrderID":20365,"DriverID":62,"RequestedDate":"\/Date(1593606710260)\/","Latitude":29.326863,"Longitude":48.034954,"ContactName":"Ibrahim Elgendy","ContactPhoneNumber":"00965123456","ApiToken":null,"APIKey":null,"Action":7}</Msg>
+    <Trace>{"Timetoken":15936071302607701}</Trace>
+  </Error>
+</Mawaqaa-Tracking>

@@ -1,0 +1,334 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="8" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>28/06/2021 14:26</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "oCustomerCar":{
+  "carID": 0,
+  "carName": "car1",
+  "carMakeID": 2,
+  "carModelID": 1,
+  "year":2021,
+  "plateNumber": 564848,
+  "isDefault": true ,
+  "LanguageID": 1
+}
+}</ErrPage>
+    <Msg>A task was canceled.</Msg>
+    <Trace>   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>1</ErrID>
+    <ErrDate>28/06/2021 15:26</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "CarID": 15
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCoreAPI.Models.APIs.CustomersAPI.CustomersAPI.SetCarAsDefault(CustomersRequestAPI oCustomersRequestAPI) in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Models\APIs\CustomersAPI\CustomersAPI.cs:line 124
+   at MWCoreAPI.Controllers.ServicesController.&lt;SetCarAsDefault&gt;d__11.MoveNext() in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Controllers\ServicesController.cs:line 173
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>2</ErrID>
+    <ErrDate>29/06/2021 10:47</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "oCustomer": {
+        "customerID": 4,
+        "phoneCode": "+974",
+        "phoneNumber": "99999999",
+        "fullName": "Aya Abdelmonem",
+        "email": "aya.abdelmonem95@gmail.com",
+        "gender": 2,
+        "isBlocked": false,
+        "categoryID": null,
+        "categoryName": null,
+        "dateOfBirth": null,
+        "defaultLanguageID": 1,
+        "subscribedToNewsLetter": false,
+        "isProfileCompleted": false
+    }
+}</ErrPage>
+    <Msg>Nullable object must have a value.</Msg>
+    <Trace>   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at MWCore.Areas.MWCore.Models.Modules.Customers.Components.CustomersCOM.SaveCustomerAPI(CustomersModel oModel) in C:\TFS\MW_Projects\Appsher\MWCore\Areas\MWCore\Models\Modules\Customers\Components\CustomersCOM.cs:line 154
+   at MWCoreAPI.Models.APIs.CustomersAPI.CustomersAPI.SaveCustomerProfile(CustomersRequestAPI oCustomersRequestAPI) in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Models\APIs\CustomersAPI\CustomersAPI.cs:line 178
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerProfile&gt;d__18.MoveNext() in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Controllers\ServicesController.cs:line 268
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>3</ErrID>
+    <ErrDate>29/06/2021 10:49</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "oCustomer": {
+        "customerID": 4,
+        "phoneCode": "+974",
+        "phoneNumber": "99999999",
+        "fullName": "Aya Abdelmonem",
+        "email": "aya.abdelmonem95@gmail.com",
+        "gender": 2,
+        "isBlocked": false,
+        "categoryID": null,
+        "categoryName": null,
+        "dateOfBirth": "1995-10-30",
+        "defaultLanguageID": 1,
+        "subscribedToNewsLetter": false,
+        "isProfileCompleted": false
+    }
+}</ErrPage>
+    <Msg>Nullable object must have a value.</Msg>
+    <Trace>   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at MWCore.Areas.MWCore.Models.Modules.Customers.Components.CustomersCOM.SaveCustomerAPI(CustomersModel oModel) in C:\TFS\MW_Projects\Appsher\MWCore\Areas\MWCore\Models\Modules\Customers\Components\CustomersCOM.cs:line 154
+   at MWCoreAPI.Models.APIs.CustomersAPI.CustomersAPI.SaveCustomerProfile(CustomersRequestAPI oCustomersRequestAPI) in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Models\APIs\CustomersAPI\CustomersAPI.cs:line 178
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerProfile&gt;d__18.MoveNext() in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Controllers\ServicesController.cs:line 268
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>4</ErrID>
+    <ErrDate>29/06/2021 10:49</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "oCustomer": {
+        "customerID": 4,
+        "phoneCode": "+974",
+        "phoneNumber": "99999999",
+        "fullName": "Aya Abdelmonem",
+        "email": "aya.abdelmonem95@gmail.com",
+        "gender": 2,
+        "isBlocked": false,
+        "dateOfBirth": "1995-10-30",
+        "defaultLanguageID": 1,
+        "subscribedToNewsLetter": false,
+        "isProfileCompleted": false
+    }
+}</ErrPage>
+    <Msg>Nullable object must have a value.</Msg>
+    <Trace>   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at MWCore.Areas.MWCore.Models.Modules.Customers.Components.CustomersCOM.SaveCustomerAPI(CustomersModel oModel) in C:\TFS\MW_Projects\Appsher\MWCore\Areas\MWCore\Models\Modules\Customers\Components\CustomersCOM.cs:line 154
+   at MWCoreAPI.Models.APIs.CustomersAPI.CustomersAPI.SaveCustomerProfile(CustomersRequestAPI oCustomersRequestAPI) in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Models\APIs\CustomersAPI\CustomersAPI.cs:line 178
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerProfile&gt;d__18.MoveNext() in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Controllers\ServicesController.cs:line 268
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>5</ErrID>
+    <ErrDate>29/06/2021 10:49</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "oCustomer": {     
+        "phoneCode": "+974",
+        "phoneNumber": "99999999",
+        "fullName": "Aya Abdelmonem",
+        "email": "aya.abdelmonem95@gmail.com",
+        "gender": 2,
+        "isBlocked": false,
+        "dateOfBirth": "1995-10-30",
+        "defaultLanguageID": 1,
+        "subscribedToNewsLetter": false,
+        "isProfileCompleted": false
+    }
+}</ErrPage>
+    <Msg>Nullable object must have a value.</Msg>
+    <Trace>   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at MWCore.Areas.MWCore.Models.Modules.Customers.Components.CustomersCOM.SaveCustomerAPI(CustomersModel oModel) in C:\TFS\MW_Projects\Appsher\MWCore\Areas\MWCore\Models\Modules\Customers\Components\CustomersCOM.cs:line 154
+   at MWCoreAPI.Models.APIs.CustomersAPI.CustomersAPI.SaveCustomerProfile(CustomersRequestAPI oCustomersRequestAPI) in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Models\APIs\CustomersAPI\CustomersAPI.cs:line 178
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerProfile&gt;d__18.MoveNext() in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Controllers\ServicesController.cs:line 268
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>6</ErrID>
+    <ErrDate>29/06/2021 10:50</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "oCustomer": {     
+        "phoneCode": "+974",
+        "phoneNumber": "99999999",
+        "fullName": "Aya Abdelmonem",
+        "email": "aya.abdelmonem95@gmail.com",
+        "gender": 2,
+        "isBlocked": false,
+        "dateOfBirth": "1995-10-30",
+        "defaultLanguageID": 1,
+        "subscribedToNewsLetter": false,
+        "isProfileCompleted": false
+    }
+}</ErrPage>
+    <Msg>Nullable object must have a value.</Msg>
+    <Trace>   at System.ThrowHelper.ThrowInvalidOperationException(ExceptionResource resource)
+   at System.Nullable`1.get_Value()
+   at MWCore.Areas.MWCore.Models.Modules.Customers.Components.CustomersCOM.SaveCustomerAPI(CustomersModel oModel) in C:\TFS\MW_Projects\Appsher\MWCore\Areas\MWCore\Models\Modules\Customers\Components\CustomersCOM.cs:line 154
+   at MWCoreAPI.Models.APIs.CustomersAPI.CustomersAPI.SaveCustomerProfile(CustomersRequestAPI oCustomersRequestAPI) in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Models\APIs\CustomersAPI\CustomersAPI.cs:line 178
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveCustomerProfile&gt;d__18.MoveNext() in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Controllers\ServicesController.cs:line 268
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>7</ErrID>
+    <ErrDate>29/06/2021 14:26</ErrDate>
+    <UserID />
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey": "123456",
+    "LanguageID": 1,
+    "oCustomer": {
+        "PhoneCode": "+974",
+        "PhoneNumber": "99999999",
+        "oVerificationCode": {
+            "VerificationCode": 1234
+        }
+    }
+}</ErrPage>
+    <Msg>Object reference not set to an instance of an object.</Msg>
+    <Trace>   at MWCore.Areas.MWCore.Models.Modules.Customers.Components.CustomersCOM.VerifyCustomer(CustomersModel oModel) in C:\TFS\MW_Projects\Appsher\MWCore\Areas\MWCore\Models\Modules\Customers\Components\CustomersCOM.cs:line 85
+   at MWCoreAPI.Models.APIs.CustomersAPI.CustomersAPI.VerifyCustomer(CustomersRequestAPI oCustomersRequestAPI) in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Models\APIs\CustomersAPI\CustomersAPI.cs:line 35
+   at MWCoreAPI.Controllers.ServicesController.&lt;VerifyCustomer&gt;d__21.MoveNext() in C:\TFS\MW_Projects\Appsher\MWCoreAPI\Controllers\ServicesController.cs:line 307
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+</Mawaqaa-Tracking>

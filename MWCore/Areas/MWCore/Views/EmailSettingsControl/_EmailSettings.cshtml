@@ -1,0 +1,60 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="~/assets/ckeditor/ckeditor.js"></script>
+<style>
+    .control-label
+    {
+        text-align:left !important;
+    }
+</style>
+
+@using (Ajax.BeginForm("SaveEmailSettings", "EmailSettingsControl", new AjaxOptions { UpdateTargetId = "divSystemSettings", OnSuccess = "unloadModal('Email Setting')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oEmailSettings.ID)
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Email To</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oEmailSettings.EmailTo, new { @class = "form-control", @placeholder = "Email To", @style = "width:400px;" })
+            @Html.ValidationMessageFor(m => m.oEmailSettings.EmailTo, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Outgoing Server</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oEmailSettings.OutgoingServer, new { @class = "form-control", @placeholder = "Outgoing Server", @style = "width:400px;" })
+            @Html.ValidationMessageFor(m => m.oEmailSettings.OutgoingServer, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Enable SSL</label>
+        <div class="col-sm-10">
+            @Html.DropDownListFor(m => m.oEmailSettings.EnableSSL, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order", @style = "width:400px;" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Port Number</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oEmailSettings.PortID, new { @class = "form-control", @type = "number", @placeholder = "Port Number", @style = "width:400px;" })
+            @Html.ValidationMessageFor(m => m.oEmailSettings.PortID, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Sender Email</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oEmailSettings.SenderEmail, new { @class = "form-control", @type = "email", @placeholder = "Sender Email", @style = "width:400px;" })
+            @Html.ValidationMessageFor(m => m.oEmailSettings.SenderEmail, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Sender Password</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oEmailSettings.SenderPassword, new { @class = "form-control", @type = "password", @placeholder = "Sender Password", @style = "width:400px;" })
+            @Html.ValidationMessageFor(m => m.oEmailSettings.SenderPassword, "", new { @style = "color:orange;" })
+        </div>
+    </div>
+    <div style="text-align: center;">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+

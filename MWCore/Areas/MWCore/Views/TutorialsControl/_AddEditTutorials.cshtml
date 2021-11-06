@@ -1,0 +1,150 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oTutorial.TutorialID > 0)
+        {
+            <text> Edit Tutorials</text>
+
+        }
+        else
+        {
+            <text>Add New Tutorials</text>
+
+        }
+    </h4>
+</div>
+
+@using (Ajax.BeginForm("SaveTutorial", "TutorialsControl", new AjaxOptions { UpdateTargetId = "divTutorials", OnBegin = "PreSave", OnSuccess = "unloadModal('Tutorial')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oTutorial.TutorialID)
+    @Html.HiddenFor(m => m.oTutorial.LanguageID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Title</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oTutorial.Title, new { @class = "form-control", @placeholder = "Title" })
+                @Html.ValidationMessageFor(m => m.oTutorial.Title, "", new { @style = "Tutorial:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Description</label>
+            <div class="col-sm-10">
+                @Html.TextAreaFor(m => m.oTutorial.Description, new { @class = "form-control", @placeholder = "Description" })
+                @Html.ValidationMessageFor(m => m.oTutorial.Description, "", new { @style = "Tutorial:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Sort Order</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oTutorial.SortOrder, new { @class = "form-control", @placeholder = "Sort Order", id = "sortOrder" })
+                @Html.ValidationMessageFor(m => m.oTutorial.SortOrder, "", new { @style = "Tutorial:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oTutorial.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Logo</label>
+            <div class="col-sm-10">
+                @if (Model.oTutorial.TutorialID > 0)
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Small Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.EditFiles, "", new { @style = "color:orange;" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.Files, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Slider Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.Files, "", new { @style = "color:orange;" })
+                }
+                @Html.Image("/assets/images/Uploads/" + @Model.oTutorial.Image + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                @Html.HiddenFor(m => m.oTutorial.Image, new { @id = "HdnImg" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(document).ready(function () {
+        var number = document.getElementById('sortOrder');
+
+        // Listen for input event on numInput.
+        number.onkeydown = function(e) {
+            if(!((e.keyCode > 95 && e.keyCode < 106)
+              || (e.keyCode > 47 && e.keyCode < 58)
+              || e.keyCode == 8)) {
+                return false;
+            }
+        }
+            if (@Model.oTutorial.TutorialID== 0)
+            {
+                var OrderList = @Html.Raw(Json.Encode(Model.lstSortOrder));
+                if (OrderList.length != null && OrderList.length > 0) {
+
+                    $('#sortOrder').val(OrderList[OrderList.length - 1] + 1);
+                }
+                else{
+                    $('#sortOrder').val(1);
+                }
+            }
+        $("#ImageUpload").change(function () {
+
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#HdnImg').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+        $('.modal-dialog').css("width", "80%");
+    });
+</script>

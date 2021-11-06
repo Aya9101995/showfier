@@ -1,0 +1,406 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="5" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>01/03/2021 16:10</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "oProduct":{
+        "ProductID":0,
+        "CategoryID":2,
+        "ProductName":"Product 1",
+        "ProductDescription":"Product Desc",
+        "MainImage":"12454545454.jpg",
+        "Hashtag":"a b c d",
+        "Price":1,
+        "InSale":false,
+        "InSalePrice":0,
+        "Stock":1,
+        "ColorID":1,
+        "SizeID":1,
+        "ShowInApp":true,
+        "lstMedia":[
+            {
+                "FileType":1,
+                "FileName":"54545454.jpg"
+            },
+            {
+                "FileType":2,
+                "FileName":"54545454.mp4"
+            }
+        ],
+        "oPickupLocation":{
+            "AddressID":0,
+            "Email":"a.hawwash@mawaqaa.com",
+            "CountryID":1,
+            "CityID":1,
+            "AreaID":1,
+            "AddressType":1,
+            "AddressTitle":"Home",
+            "BlockName":"Block 3",
+            "StreetName":"St 1",
+            "BuildingName":"bldg",
+            "Avenue":"",
+            "FloorName":"9th",
+            "OfficeName":"Flat 1",
+            "OtherNotes":"",
+            "PhoneCode":"00965",
+            "PhoneNumber":"51158487",
+            "LandLineNumber":""
+        }
+    }
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int32' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.GetProductDetails(Int64 ProductID, Int32 LanguageID, Int32 CustomerID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 232
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.SaveProduct(ProductsModel oModel, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 318
+   at MWCoreAPI.Models.APIs.ProductsAPI.ProductsAPI.SaveProduct(ProductsRequestAPI productsRequestAPI) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Models\APIs\ProductsAPI\ProductsAPI.cs:line 56
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveProduct&gt;d__32.MoveNext() in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Controllers\ServicesController.cs:line 515
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>1</ErrID>
+    <ErrDate>01/03/2021 16:10</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "oProduct":{
+        "ProductID":0,
+        "CategoryID":2,
+        "ProductName":"Product 1",
+        "ProductDescription":"Product Desc",
+        "MainImage":"12454545454.jpg",
+        "Hashtag":"a b c d",
+        "Price":1,
+        "InSale":false,
+        "InSalePrice":0,
+        "Stock":1,
+        "ColorID":1,
+        "SizeID":1,
+        "ShowInApp":true,
+        "lstMedia":[
+            {
+                "FileType":1,
+                "FileName":"54545454.jpg"
+            },
+            {
+                "FileType":2,
+                "FileName":"54545454.mp4"
+            }
+        ],
+        "oPickupLocation":{
+            "AddressID":0,
+            "Email":"a.hawwash@mawaqaa.com",
+            "CountryID":1,
+            "CityID":1,
+            "AreaID":1,
+            "AddressType":1,
+            "AddressTitle":"Home",
+            "BlockName":"Block 3",
+            "StreetName":"St 1",
+            "BuildingName":"bldg",
+            "Avenue":"",
+            "FloorName":"9th",
+            "OfficeName":"Flat 1",
+            "OtherNotes":"",
+            "PhoneCode":"00965",
+            "PhoneNumber":"51158487",
+            "LandLineNumber":""
+        }
+    }
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int32' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.GetProductDetails(Int64 ProductID, Int32 LanguageID, Int32 CustomerID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 232
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.SaveProduct(ProductsModel oModel, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 318
+   at MWCoreAPI.Models.APIs.ProductsAPI.ProductsAPI.SaveProduct(ProductsRequestAPI productsRequestAPI) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Models\APIs\ProductsAPI\ProductsAPI.cs:line 56
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveProduct&gt;d__32.MoveNext() in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Controllers\ServicesController.cs:line 515
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>2</ErrID>
+    <ErrDate>01/03/2021 16:12</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "oProduct":{
+        "ProductID":0,
+        "CategoryID":2,
+        "ProductName":"Product 1",
+        "ProductDescription":"Product Desc",
+        "MainImage":"12454545454.jpg",
+        "Hashtag":"a b c d",
+        "Price":1,
+        "InSale":false,
+        "InSalePrice":0,
+        "Stock":1,
+        "ColorID":1,
+        "SizeID":1,
+        "ShowInApp":true,
+        "lstMedia":[
+            {
+                "FileType":1,
+                "FileName":"54545454.jpg"
+            },
+            {
+                "FileType":2,
+                "FileName":"54545454.mp4"
+            }
+        ],
+        "oPickupLocation":{
+            "AddressID":0,
+            "Email":"a.hawwash@mawaqaa.com",
+            "CountryID":1,
+            "CityID":1,
+            "AreaID":1,
+            "AddressType":1,
+            "AddressTitle":"Home",
+            "BlockName":"Block 3",
+            "StreetName":"St 1",
+            "BuildingName":"bldg",
+            "Avenue":"",
+            "FloorName":"9th",
+            "OfficeName":"Flat 1",
+            "OtherNotes":"",
+            "PhoneCode":"00965",
+            "PhoneNumber":"51158487",
+            "LandLineNumber":""
+        }
+    }
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int32' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.GetProductDetails(Int64 ProductID, Int32 LanguageID, Int32 CustomerID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 232
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.SaveProduct(ProductsModel oModel, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 318
+   at MWCoreAPI.Models.APIs.ProductsAPI.ProductsAPI.SaveProduct(ProductsRequestAPI productsRequestAPI) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Models\APIs\ProductsAPI\ProductsAPI.cs:line 56
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveProduct&gt;d__32.MoveNext() in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Controllers\ServicesController.cs:line 515
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>3</ErrID>
+    <ErrDate>01/03/2021 16:13</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "oProduct":{
+        "ProductID":0,
+        "CategoryID":2,
+        "ProductName":"Product 1",
+        "ProductDescription":"Product Desc",
+        "MainImage":"12454545454.jpg",
+        "Hashtag":"a b c d",
+        "Price":1,
+        "InSale":false,
+        "InSalePrice":0,
+        "Stock":1,
+        "ColorID":1,
+        "SizeID":1,
+        "ShowInApp":true,
+        "lstMedia":[
+            {
+                "FileType":1,
+                "FileName":"54545454.jpg"
+            },
+            {
+                "FileType":2,
+                "FileName":"54545454.mp4"
+            }
+        ],
+        "oPickupLocation":{
+            "AddressID":0,
+            "Email":"a.hawwash@mawaqaa.com",
+            "CountryID":1,
+            "CityID":1,
+            "AreaID":1,
+            "AddressType":1,
+            "AddressTitle":"Home",
+            "BlockName":"Block 3",
+            "StreetName":"St 1",
+            "BuildingName":"bldg",
+            "Avenue":"",
+            "FloorName":"9th",
+            "OfficeName":"Flat 1",
+            "OtherNotes":"",
+            "PhoneCode":"00965",
+            "PhoneNumber":"51158487",
+            "LandLineNumber":""
+        }
+    }
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int32' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.GetProductDetails(Int64 ProductID, Int32 LanguageID, Int32 CustomerID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 232
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.SaveProduct(ProductsModel oModel, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 318
+   at MWCoreAPI.Models.APIs.ProductsAPI.ProductsAPI.SaveProduct(ProductsRequestAPI productsRequestAPI) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Models\APIs\ProductsAPI\ProductsAPI.cs:line 56
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveProduct&gt;d__32.MoveNext() in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Controllers\ServicesController.cs:line 515
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+  <Error>
+    <ErrID>4</ErrID>
+    <ErrDate>01/03/2021 16:13</ErrDate>
+    <UserID>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</UserID>
+    <UserType>0</UserType>
+    <ErrPage>{
+    "APIKey":"123456",
+    "LanguageID":1,
+    "oProduct":{
+        "ProductID":0,
+        "CategoryID":2,
+        "ProductName":"Product 1",
+        "ProductDescription":"Product Desc",
+        "MainImage":"12454545454.jpg",
+        "Hashtag":"a b c d",
+        "Price":1,
+        "InSale":false,
+        "InSalePrice":0,
+        "Stock":1,
+        "ColorID":1,
+        "SizeID":1,
+        "ShowInApp":true,
+        "lstMedia":[
+            {
+                "FileType":1,
+                "FileName":"54545454.jpg"
+            },
+            {
+                "FileType":2,
+                "FileName":"54545454.mp4"
+            }
+        ],
+        "oPickupLocation":{
+            "AddressID":0,
+            "Email":"a.hawwash@mawaqaa.com",
+            "CountryID":1,
+            "CityID":1,
+            "AreaID":1,
+            "AddressType":1,
+            "AddressTitle":"Home",
+            "BlockName":"Block 3",
+            "StreetName":"St 1",
+            "BuildingName":"bldg",
+            "Avenue":"",
+            "FloorName":"9th",
+            "OfficeName":"Flat 1",
+            "OtherNotes":"",
+            "PhoneCode":"00965",
+            "PhoneNumber":"51158487",
+            "LandLineNumber":""
+        }
+    }
+}</ErrPage>
+    <Msg>The cast to value type 'System.Int32' failed because the materialized value is null. Either the result type's generic parameter or the query must use a nullable type.</Msg>
+    <Trace>   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper.ErrorHandlingValueReader`1.GetValue(DbDataReader reader, Int32 ordinal)
+   at lambda_method(Closure , Shaper )
+   at System.Data.Entity.Core.Common.Internal.Materialization.Coordinator`1.ReadNextElement(Shaper shaper)
+   at System.Data.Entity.Core.Common.Internal.Materialization.Shaper`1.SimpleEnumerator.MoveNext()
+   at System.Linq.Enumerable.Single[TSource](IEnumerable`1 source)
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.GetProductDetails(Int64 ProductID, Int32 LanguageID, Int32 CustomerID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 232
+   at MWCore.Areas.MWCore.Models.Modules.Products.ProductsCOM.SaveProduct(ProductsModel oModel, Int32 LanguageID) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCore\Areas\MWCore\Models\Modules\Products\ProductsCOM.cs:line 318
+   at MWCoreAPI.Models.APIs.ProductsAPI.ProductsAPI.SaveProduct(ProductsRequestAPI productsRequestAPI) in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Models\APIs\ProductsAPI\ProductsAPI.cs:line 56
+   at MWCoreAPI.Controllers.ServicesController.&lt;SaveProduct&gt;d__32.MoveNext() in D:\TFS_Projects_New\MW_Projects\KarmaApp\MWCoreAPI\Controllers\ServicesController.cs:line 515
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Threading.Tasks.TaskHelpersExtensions.&lt;CastToObject&gt;d__1`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ApiControllerActionInvoker.&lt;InvokeActionAsyncCore&gt;d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ActionFilterResult.&lt;ExecuteAsync&gt;d__5.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Web.Http.Controllers.ExceptionFilterResult.&lt;ExecuteAsync&gt;d__6.MoveNext()</Trace>
+  </Error>
+</Mawaqaa-Tracking>

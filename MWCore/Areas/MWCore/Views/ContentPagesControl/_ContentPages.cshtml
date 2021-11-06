@@ -1,0 +1,30 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="col-lg-12">
+    <div class="table-responsive">
+        <table class="table table-users table-bordered table-hover DataTable">
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Title</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int nCount = 1;}
+                @foreach (var item in Model.lstContentPages)
+                {
+                    <tr>
+                        <td>@nCount</td>
+                        <td>
+                            @item.PageTitle
+                        </td>
+                        <td>
+                            <a class="btn btn-info" href="@Url.Action("EditContentPage", "ContentPagesControl", new { @PageID = item.PageID})"><i class="fa fa-paste"></i> Edit</a>
+                        </td>
+                    </tr>
+                    nCount += 1;
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

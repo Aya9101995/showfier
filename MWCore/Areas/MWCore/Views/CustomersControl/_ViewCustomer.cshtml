@@ -1,0 +1,169 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        View Customer
+    </h4>
+</div>
+<div class="modal-body">
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">FullName</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oCustomer.FullName, new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+</div>
+<div class="modal-body">
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Email</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oCustomer.Email, new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+</div>
+<div class="modal-body">
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">PhoneCode</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oCustomer.PhoneCode, new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+</div>
+<div class="modal-body">
+    <div class="form-group">
+        <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">PhoneNumber</label>
+        <div class="col-sm-10">
+            @Html.TextBoxFor(m => m.oCustomer.PhoneNumber, new { @class = "form-control", @disabled = "disabled" })
+        </div>
+    </div>
+</div>
+
+<div class="modal-body" style="text-align:center!important">
+    <button class="btn btn-warning" onclick="ViewTbl('Addresses')">Adresses</button>
+    <button class="btn btn-success" onclick="ViewTbl('Wallet')">Wallet</button>
+</div>
+
+@if (Model.oCustomer.lstAddresses.Count > 0)
+{
+    <div class="modal-body" id="tblAddresses">
+        <div class="form-group">
+            <div class="table-responsive">
+                <table class="table table-users table-bordered table-hover DataTable">
+                    <thead>
+                        <tr>
+                            <th>Country</th>
+                            <th>City</th>
+                            <th>Area</th>
+                            <th>Block</th>
+                            <th>Street</th>
+                            <th>Avenue</th>
+                            <th>Building No.</th>
+                            <th>Floor</th>
+                            <th>Office Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.oCustomer.lstAddresses)
+                        {
+                            <tr>
+                                <td>
+                                    @item.CountryName
+                                </td>
+                                <td>
+                                    @item.CityName
+                                </td>
+                                <td>
+                                    @item.AreaName
+                                </td>
+                                <td>
+                                    @item.BlockName
+                                </td>
+                                <td>
+                                    @item.StreetName
+                                </td>
+                                <td>
+                                    @item.AvenueName
+                                </td>
+                                <td>
+                                    @item.BuildingName
+                                </td>
+                                <td>
+                                    @item.FloorName
+                                </td>
+                                <td>
+                                    @item.OfficeName
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+}
+@if (Model.oCustomer.oWallet != null)
+{
+    <div class="modal-body" id="tblWallet">
+        <div class="form-group">
+            <div class="table-responsive">
+                <table class="table table-users table-bordered table-hover DataTable">
+                    <thead>
+                        <tr>
+                            <th>Credit</th>
+                            <th>Debit</th>
+                            <th>ReferenceID</th>
+                            <th>ReferenceType</th>
+                            <th>TransactionDate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.oCustomer.oWallet.lstTransactions)
+                        {
+                            <tr>
+                                <td>
+                                    @item.Credit
+                                </td>
+                                <td>
+                                    @item.Debit
+                                </td>
+                                <td>
+                                    @item.ReferenceID
+                                </td>
+                                <td>
+                                    @item.ReferenceType
+                                </td>
+                                <td>
+                                    @item.TransactionDate
+                                </td>
+                            </tr>
+                        }
+                        <tr>
+                            <td>Balance</td>
+                            <td colspan="4">@Model.oCustomer.oWallet.Ballance</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+}
+<script>
+    $(function () {
+        $('#tblAddresses').show();
+        $('#tblWallet').hide();
+    });
+    function ViewTbl(name) {
+        if (name == 'Addresses') {
+
+            $('#tblAddresses').show();
+            $('#tblWallet').hide();
+        }
+        else {
+            $('#tblAddresses').hide();
+            $('#tblWallet').show();
+        }
+
+    }
+</script>

@@ -1,0 +1,122 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oGalleryAlbum.GalleryAlbumID > 0)
+        {
+            <text> Edit Gallery Album</text>
+
+        }
+        else
+        {
+            <text>Add New Gallery Album</text>
+
+        }
+    </h4>
+</div>
+
+@using (Ajax.BeginForm("SaveGalleryAlbums", "GalleryAlbumsControl", new AjaxOptions { UpdateTargetId = "divGalleryAlbums", OnBegin = "PreSave", OnSuccess = "unloadModal('GalleryAlbum')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oGalleryAlbum.GalleryAlbumID)
+    @Html.HiddenFor(m => m.oGalleryAlbum.LanguageID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Title</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oGalleryAlbum.Title, new { @class = "form-control", @placeholder = "Title" })
+                @Html.ValidationMessageFor(m => m.oGalleryAlbum.Title, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Description</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oGalleryAlbum.Desc, new { @class = "form-control", @placeholder = "Description" })
+                @Html.ValidationMessageFor(m => m.oGalleryAlbum.Desc, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Image</label>
+            <div class="col-sm-10">
+                @if (Model.oGalleryAlbum.GalleryAlbumID > 0)
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Banner Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.EditFiles, "", new { @style = "color:orange;" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.Files, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Banner Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.Files, "", new { @style = "color:orange;" })
+                }
+                @Html.Image("/assets/images/Uploads/" + @Model.oGalleryAlbum.CoverIamge + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                @Html.HiddenFor(m => m.oGalleryAlbum.CoverIamge, new { @id = "HdnImg" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oGalleryAlbum.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="@Url.Content("~/Areas/MWCore/assets/plugins/bower_components/tinymce/tinymce.min.js")"></script>
+<script>
+    $(document).ready(function () {
+        $("#ImageUpload").change(function () {
+
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+                url += '?width=1550&height=523';
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#HdnImg').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+    })
+</script>

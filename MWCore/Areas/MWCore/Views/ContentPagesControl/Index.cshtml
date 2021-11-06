@@ -1,0 +1,13 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+@{
+    ViewBag.Title = "Content Pages";
+    ViewBag.CurrentPage = "Content Pages";
+}
+<script src="@Url.Content("~/Scripts/jquery-3.6.0.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+<div id="divContentPages">
+    @{ Html.RenderPartial("_ContentPages", Model);}
+</div>
+
+
+

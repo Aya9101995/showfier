@@ -1,0 +1,163 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+
+@using (Html.BeginForm("UpdateProfile", "Users", FormMethod.Post, new { @class = "form -horizontal", @id = "usersform" }))
+{
+    <div class="col-lg-12">
+        @Html.HiddenFor(m => m.oUser.ID)
+        <div class="row">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Full Name</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.oUser.FullName, new { @class = "form-control", @placeholder = "User Full Name" })
+                    @Html.ValidationMessageFor(m => m.oUser.FullName, "", new { @style = "color:orange;" })
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Email</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.oUser.Email, new { @class = "form-control", @placeholder = "User Email" })
+                    @Html.ValidationMessageFor(m => m.oUser.Email, "", new { @style = "color:orange;" })
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Mobile</label>
+                <div class="col-sm-10">
+                    @Html.TextBoxFor(m => m.oUser.Mobile, new { @onkeydown = "return ValidateNumber(event);", @class = "form-control", @placeholder = "User Mobile" })
+                    @Html.ValidationMessageFor(m => m.oUser.Mobile, "", new { @style = "color:orange;" })
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            @if (Model.oUser.ID > 0)
+            { }
+            else
+            {
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Password</label>
+                    <div class="col-sm-10">
+                        @Html.TextBoxFor(m => m.oUser.Password, new { @class = "form-control", @placeholder = "Password", @type = "password" })
+                        @Html.ValidationMessageFor(m => m.oUser.Password, "", new { @style = "color:orange;" })
+                    </div>
+                </div>
+            }
+
+        </div>
+        <div class="row">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Image</label>
+                <div class="col-sm-10">
+                    @if (Model.oUser.ID > 0)
+                    {
+                        @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "User Image" })
+                        @Html.ValidationMessageFor(m => m.oFileUploader.EditFiles, "", new { @style = "color:orange;" })
+                    }
+                    else
+                    {
+                        @Html.TextBoxFor(m => m.oFileUploader.Files, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "User Image" })
+                        @Html.ValidationMessageFor(m => m.oFileUploader.Files, "", new { @style = "color:orange;" })
+                    }
+                    @Html.Image("/assets/images/Uploads/" + @Model.oUser.UserImage + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                    @Html.HiddenFor(m => m.oUser.UserImage, new { @id = "HdnImg" })
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="modal-footer">
+                <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+            </div>
+        </div>
+    </div>
+
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script type="text/javascript">
+
+    $("#usersform").submit(function () {
+        if ($(this).find('.input-validation-error').length == 0) {
+            $(this).find(':submit').attr('disabled', 'disabled');
+        }
+
+        var profilePicVal = document.getElementById("imgPreview").src;
+        $("#profilePic").attr('src', profilePicVal);
+        var fullNameVal = $("#oUser_FullName").val();
+        document.getElementById("fullName").innerHTML = fullNameVal;
+
+        $.notify({
+            icon: 'fa fa-send',
+            title: '<strong>Notification!</strong>',
+            message: '<br>Profile Updated Successfully.'
+        }, {
+                type: 'success',
+                newest_on_top: true,
+                showProgressbar: true
+            });
+    });
+</script>
+<script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#ImageUpload").change(function () {
+            
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#HdnImg').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+    });
+
+
+    function ValidateNumber(e) {
+        var evt = (e) ? e : window.event;
+        var charCode = (evt.keyCode) ? evt.keyCode : evt.which;
+        if (charCode > 31 && (charCode < 48 || charCode > 57) && (charCode < 95 || charCode > 105)) {
+            return false;
+        }
+        return true;
+    };
+</script>

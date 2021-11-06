@@ -1,0 +1,200 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oDriver.DriverID > 0)
+        {
+            <text> Edit Driver</text>
+
+        }
+        else
+        {
+            <text>Add New Driver</text>
+
+        }
+    </h4>
+</div>
+@using (Ajax.BeginForm("SaveDriver", "DriversControl", new AjaxOptions { UpdateTargetId = "divDrivers", OnBegin = "PreSave", OnSuccess = "unloadModal('Driver')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oDriver.DriverID)
+    @Html.HiddenFor(m => m.oDriver.LanguageID)
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oDriver.FullName, new { @class = "form-control", @placeholder = "Sort Order" })
+                @Html.ValidationMessageFor(m => m.oDriver.FullName, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Employee ID</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oDriver.EmployeeID, new { @class = "form-control", @placeholder = "Sort Order" })
+                @Html.ValidationMessageFor(m => m.oDriver.EmployeeID, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Civil ID</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oDriver.CivilID, new { @class = "form-control", @placeholder = "Sort Order" })
+                @Html.ValidationMessageFor(m => m.oDriver.CivilID, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Phone Code</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oDriver.PhoneCode, Model.lstCountriesPhoneCodesList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.oDriver.PhoneCode, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Phone Number</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oDriver.PhoneNumber, new { @class = "form-control", @placeholder = "Phone Number" })
+                @Html.ValidationMessageFor(m => m.oDriver.PhoneNumber, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+
+    if (Model.oDriver.DriverID == 0)
+    {
+        <div class="modal-body">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Password</label>
+                <div class="col-sm-10">
+                    @Html.PasswordFor(m => m.oDriver.Password, new { @class = "form-control", @placeholder = "Password" })
+                    @Html.ValidationMessageFor(m => m.oDriver.Password, "", new { @style = "color:orange;" })
+                </div>
+            </div>
+        </div>
+    }
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Date Of Birth</label>
+            <div class="col-sm-10 input-group">
+                @Html.TextBoxFor(m => m.oDriver.DateOfBirth, new { @class = "form-control datepicker-autoclose", @placeholder = "dd/MM/yyyy" })
+                <span class="input-group-addon"><i class="icon-calender"></i></span>
+                @Html.ValidationMessageFor(m => m.oDriver.DateOfBirth, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Gender</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oDriver.Gender, Model.lstGenderList, new { @class = "form-control" })
+                @Html.ValidationMessageFor(m => m.oDriver.Gender, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Picture</label>
+            <div class="col-sm-10">
+                @if (Model.oDriver.DriverID > 0)
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Car Make Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.EditFiles, "", new { @style = "color:orange;" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.Files, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Car Make Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.Files, "", new { @style = "color:orange;" })
+                }
+                @Html.Image("/assets/images/Uploads/" + @Model.oDriver.Picture + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                @Html.HiddenFor(m => m.oDriver.Picture, new { @id = "HdnImg" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Default Car</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oDriver.DefaultCarID, Model.CarsItemsList, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Today's Car</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oDriver.TodaysCarID, Model.CarsItemsList, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="@Url.Content("~/Areas/MWCore/assets/plugins/bower_components/bootstrap-datepicker/bootstrap-datepicker.min.js")"></script>
+<script>
+    jQuery('.datepicker-autoclose').datepicker({
+        autoclose: true,
+        todayHighlight: true,
+        format: 'mm/dd/yyyy'
+    });
+</script>
+<script>
+    $(document).ready(function () {
+        $("#ImageUpload").change(function () {
+
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+                url += '?width=1550&height=523';
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#HdnImg').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+    })
+</script>

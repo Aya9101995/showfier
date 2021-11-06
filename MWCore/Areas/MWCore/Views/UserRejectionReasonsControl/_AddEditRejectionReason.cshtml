@@ -1,0 +1,51 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oUserRejectionReasons.RejectionID > 0)
+        {
+            <text> Edit Rejection Reason</text>
+
+        }
+        else
+        {
+            <text>Add New Rejection Reason</text>
+
+        }
+    </h4>
+</div>
+
+@using (Ajax.BeginForm("SaveRejectionReason", "UserRejectionReasonsControl", new AjaxOptions { UpdateTargetId = "divRejectionReasons", OnBegin = "PreSave", OnSuccess = "unloadModal('Rejection Reason')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oUserRejectionReasons.RejectionID)
+    @Html.HiddenFor(m => m.oUserRejectionReasons.LanguageID)
+
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oUserRejectionReasons.RejectionName, new { @class = "form-control", @placeholder = "Name" })
+                @Html.ValidationMessageFor(m => m.oUserRejectionReasons.RejectionName, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oUserRejectionReasons.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.modal-dialog').css("width", "80%");
+    });
+</script>

@@ -1,0 +1,75 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+
+<div style="text-align:center;">
+    <a class="btn btn-info modal-link" href="@Url.Action("AddEditCar", "CarsControl")"><i class="fa fa-plus"></i> Add New Car</a>
+</div>
+<br />
+<div class="col-lg-12">
+    <div class="table-responsive">
+        <table class="table table-users table-bordered table-hover DataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Plate Number</th>
+                    <th>Type</th>
+                    <th>Make</th>
+                    <th>Model</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.lstCars)
+                {
+                    <tr>
+                        <td>
+                            @item.CarName
+                        </td>
+                        <td>
+                            @item.PlatNo
+                        </td>
+                        <td>
+                            @item.CarTypeName
+                        </td>
+                        <td>
+                            @item.CarMakeName
+                        </td>
+                        <td>
+                            @item.CarModelName
+                        </td>
+
+                        <td>
+                            <a class="btn btn-info modal-link" href="@Url.Action("AddEditCar", "CarsControl", new { @CarID = item.CarID})"><i class="fa fa-paste"></i> Edit</a>
+                            @using (Ajax.BeginForm("DeleteCar", new { @controller = "CarsControl", @CarID = item.CarID }, new AjaxOptions { UpdateTargetId = "divCars", OnSuccess = "unloadModal('Car')" }, new { @style = "display: inline-block;" }))
+                            {
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure that you want to delete it?')"><i class="fa fa-close"></i>&nbsp; Delete</button>
+                            }
+                            @using (Ajax.BeginForm("ChangeStatus", new { @controller = "CarsControl", @CarID = item.CarID }, new AjaxOptions { UpdateTargetId = "divCars", OnSuccess = "unloadModal('Car')" }, new { @style = "display: inline-block;" }))
+                            {
+                                var message = "";
+                                if (item.Status == true)
+                                {
+                                    message = "Are you sure that you want to Deactivate?";
+                                }
+                                else
+                                {
+                                    message = "Are you sure that you want to Activate?";
+                                }
+                                <button type="submit" class="btn btn-default" onclick="return confirm('@message')">
+
+                                    @if (item.Status == true)
+                                    {
+                                        <text><i class="fa fa-check"></i>&nbsp;@MWCore.Areas.MWCore.Resources.Admin.Deactivate</text>
+                                    }
+                                    else
+                                    {
+                                        <text><i class="fa fa-close"></i>&nbsp;@MWCore.Areas.MWCore.Resources.Admin.Activate</text>
+                                    }
+                                </button>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

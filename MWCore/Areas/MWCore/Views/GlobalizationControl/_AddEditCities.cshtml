@@ -1,0 +1,62 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+    <h4 class="modal-title" id="myModalLabel">
+        @if (Model.oCity.CityID > 0)
+        {
+            <text> Edit Governarate</text>
+
+        }
+        else
+        {
+            <text>Add New Governarate</text>
+
+        }
+    </h4>
+</div>
+
+@using (Ajax.BeginForm("SaveCity", "GlobalizationControl", new AjaxOptions { UpdateTargetId = "divCities", OnBegin = "PreSave", OnSuccess = "unloadModal('City')" }, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oCity.CityID)
+    @Html.HiddenFor(m => m.oCity.CountryID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCity.CityName, new { @class = "form-control", @placeholder = "Governarate Name" })
+                @Html.ValidationMessageFor(m => m.oCity.CityName, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Delivery Charge</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCity.DeliveryCharge, new { @class = "form-control", @placeholder = "Delivery Charge" })
+                @Html.ValidationMessageFor(m => m.oCity.DeliveryCharge, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Min Amount</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oCity.MinAmount, new { @class = "form-control", @placeholder = "Min Amount" })
+                @Html.ValidationMessageFor(m => m.oCity.MinAmount, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:90px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oCity.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

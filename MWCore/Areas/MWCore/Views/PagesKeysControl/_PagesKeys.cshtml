@@ -1,0 +1,59 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div style="text-align:center;">
+    <a class="btn btn-info" href="@Url.Action("AddEditPageKey", "PagesKeysControl",new { @PageID = Model.oPageKey.PageID})"><i class="fa fa-plus"></i> Add New Key</a>
+</div>
+<br />
+<div class="col-lg-12">
+    <div class="table-responsive">
+        <table class="table table-users table-bordered table-hover DataTable">
+            <thead>
+                <tr>
+                    <th>Key ID</th>
+                    <th>Key Type</th>
+                    <th>Key Name</th>
+                    <th>Key Value</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.lstPagesKeys)
+                {
+                    <tr>
+                        <td>
+                            @item.KeyID
+                        </td>
+                        <td>@item.KeyType</td>
+                        <td>
+                            @item.KeyName
+                        </td>
+                        <td>
+                            @if (item.KeyType == "Text")
+                            {
+                                if (item.KeyValue.Length > 100)
+                                {
+                                    <text><span style="color:orange;" title="@item.KeyValue">@item.KeyValue.Substring(0, 99)</span></text>
+                                }
+                                else
+                                {
+                                    <text>@item.KeyValue</text>
+                                }
+
+                            }
+                            else if (item.KeyType == "Image")
+                            {
+                                <text>@Html.Image("/assets/Images/Uploads/" + item.KeyValue + "", "", new { @height = "30", @width = "50" })</text>
+                            }
+                            else
+                            {
+                                <text>@Html.Raw(item.KeyValue)</text>
+                            }
+                        </td>
+                        <td>
+                            <a class="btn btn-info" href="@Url.Action("AddEditPageKey", "PagesKeysControl", new {@PageID = Model.oPageKey.PageID, @KeyID = item.KeyID})"><i class="fa fa-paste"></i> Edit</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

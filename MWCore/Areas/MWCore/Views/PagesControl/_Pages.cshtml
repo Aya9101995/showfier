@@ -1,0 +1,62 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+<div style="text-align:center;">
+    <a class="btn btn-info" href="@Url.Action("AddEditPages", "PagesControl",new {@ParentID=Model.oPage.ParentID })"><i class="fa fa-plus"></i> Add New Page</a>
+</div>
+<br />
+<div class="col-lg-12">
+    <div class="table-responsive">
+        <table class="table table-users table-bordered table-hover DataTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>URL</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.lstPages)
+                {
+                    <tr>
+                        <td>
+                            <a href="@Url.Action("Index", "PagesControl", new {@ParentID=item.PageID})">@item.PageName</a>
+                        </td>
+                        <td>
+                            @item.PageURL
+                        </td>
+                        <td>
+                            <a class="btn btn-info" href="@Url.Action("AddEditPages", "PagesControl", new { @PageID = item.PageID, @ParentID=item.ParentID})"><i class="fa fa-paste"></i> Edit</a>
+                            @using (Ajax.BeginForm("DeletePages", new { @controller = "PagesControl", @PageID = item.PageID, @ParentID = item.ParentID }, new AjaxOptions { UpdateTargetId = "divPages", OnSuccess = "unloadModal('Pages')" }, new { @style = "display: inline-block;" }))
+                            {
+                                <button type="submit" class="btn btn-danger" onclick="return confirm('Are you sure that you want to delete it?')"><i class="fa fa-close"></i>&nbsp; Delete</button>
+                            }
+                            @using (Ajax.BeginForm("ChangeStatus", new { @controller = "PagesControl", @PageID = item.PageID, @ParentID = item.ParentID }, new AjaxOptions { UpdateTargetId = "divPages", OnSuccess = "unloadModal('Pages')" }, new { @style = "display: inline-block;" }))
+                            {
+                                var message = "";
+                                if (item.Status == true)
+                                {
+                                    message = "Are you sure that you want to Deactivate?";
+                                }
+                                else
+                                {
+                                    message = "Are you sure that you want to Activate?";
+                                }
+                                <button type="submit" class="btn btn-default" onclick="return confirm('@message')">
+
+                                    @if (item.Status == true)
+                                    {
+                                        <text><i class="fa fa-check"></i>&nbsp;@MWCore.Areas.MWCore.Resources.Admin.Deactivate</text>
+                                    }
+                                    else
+                                    {
+                                        <text><i class="fa fa-close"></i>&nbsp;@MWCore.Areas.MWCore.Resources.Admin.Activate</text>
+                                    }
+                                </button>
+                                <a class="btn btn-info" href="@Url.Action("Index", "PagesKeysControl", new { @PageID = item.PageID})"><i class="fa fa-paste"></i> Resources</a>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

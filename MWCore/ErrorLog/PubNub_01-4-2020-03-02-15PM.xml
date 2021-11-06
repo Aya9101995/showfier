@@ -1,0 +1,177 @@
+<?xml version="1.0" standalone="yes"?>
+<Mawaqaa-Tracking>
+  <Counts>
+    <Count ErrCount="19" />
+  </Counts>
+  <Error>
+    <ErrID>0</ErrID>
+    <ErrDate>02/03/2020 11:36</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"ApiToken":null,"APIKey":null,"Action":6,"DriverID":2,"DriverChannelName":"drv_chnl_2","CurrentAvailabilityStatus":2}</Msg>
+    <Trace>{"Timetoken":15831381835273108}</Trace>
+  </Error>
+  <Error>
+    <ErrID>1</ErrID>
+    <ErrDate>02/03/2020 11:36</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_14"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_14</ErrPage>
+    <Msg>{"ApiToken":null,"APIKey":null,"Action":6,"DriverID":14,"DriverChannelName":"drv_chnl_14","CurrentAvailabilityStatus":2}</Msg>
+    <Trace>{"Timetoken":15831381873036877}</Trace>
+  </Error>
+  <Error>
+    <ErrID>2</ErrID>
+    <ErrDate>02/03/2020 11:36</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_16"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_16</ErrPage>
+    <Msg>{"ApiToken":null,"APIKey":null,"Action":6,"DriverID":16,"DriverChannelName":"drv_chnl_16","CurrentAvailabilityStatus":2}</Msg>
+    <Trace>{"Timetoken":15831381904244853}</Trace>
+  </Error>
+  <Error>
+    <ErrID>3</ErrID>
+    <ErrDate>03/03/2020 18:32</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2929,"CurrentTaskStatus":6,"ApiToken":null,"APIKey":null,"Action":4}</Msg>
+    <Trace>{"Timetoken":15832495295366782}</Trace>
+  </Error>
+  <Error>
+    <ErrID>4</ErrID>
+    <ErrDate>03/03/2020 18:33</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2930,"CurrentTaskStatus":6,"ApiToken":null,"APIKey":null,"Action":4}</Msg>
+    <Trace>{"Timetoken":15832496103708771}</Trace>
+  </Error>
+  <Error>
+    <ErrID>5</ErrID>
+    <ErrDate>03/03/2020 18:38</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2931,"CurrentTaskStatus":6,"ApiToken":null,"APIKey":null,"Action":4}</Msg>
+    <Trace>{"Timetoken":15832499398999077}</Trace>
+  </Error>
+  <Error>
+    <ErrID>6</ErrID>
+    <ErrDate>03/03/2020 18:44</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2932,"CurrentTaskStatus":6,"ApiToken":null,"APIKey":null,"Action":4}</Msg>
+    <Trace>{"Timetoken":15832502460747758}</Trace>
+  </Error>
+  <Error>
+    <ErrID>7</ErrID>
+    <ErrDate>04/03/2020 09:18</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2933,"CurrentTaskStatus":6,"ApiToken":null,"APIKey":null,"Action":4}</Msg>
+    <Trace>{"Timetoken":15833027337839669}</Trace>
+  </Error>
+  <Error>
+    <ErrID>8</ErrID>
+    <ErrDate>04/03/2020 09:26</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2934,"CurrentTaskStatus":6,"ApiToken":null,"APIKey":null,"Action":4}</Msg>
+    <Trace>{"Timetoken":15833031799312547}</Trace>
+  </Error>
+  <Error>
+    <ErrID>9</ErrID>
+    <ErrDate>04/03/2020 14:32</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2967,"TaskName":"TAHER ZAKARIA MOHAMED HASSOUNA(70-1234)","RequestedDate":"\/Date(1583321396650)\/","Lalatitude":29.317601502333,"Longitude":48.0347719788551,"ContactName":"TAHER ZAKARIA MOHAMED HASSOUNA","ContactPhoneNumber":"0096566016033","HelperName":"Majed Ali","TotalTaskCount":22,"CurentTaskSerial":22,"ApiToken":null,"APIKey":null,"Action":2}</Msg>
+    <Trace>{"Timetoken":15833215217937510}</Trace>
+  </Error>
+  <Error>
+    <ErrID>10</ErrID>
+    <ErrDate>04/03/2020 14:35</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2968,"TaskName":"TAHER ZAKARIA MOHAMED HASSOUNA(70-1234)","RequestedDate":"\/Date(1583321668443)\/","Lalatitude":29.317601502333,"Longitude":48.0347719788551,"ContactName":"TAHER ZAKARIA MOHAMED HASSOUNA","ContactPhoneNumber":"0096566016033","HelperName":"Majed Ali","TotalTaskCount":23,"CurentTaskSerial":23,"ApiToken":null,"APIKey":null,"Action":2}</Msg>
+    <Trace>{"Timetoken":15833217441320067}</Trace>
+  </Error>
+  <Error>
+    <ErrID>11</ErrID>
+    <ErrDate>04/03/2020 15:16</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2970,"TaskName":"AHMED RAGAB ABDELKHALEK ABDELRAHMAN(70-12345678)","RequestedDate":"\/Date(1583324146920)\/","Lalatitude":29.32507327523275,"Longitude":48.021851778030396,"ContactName":"AHMED RAGAB ABDELKHALEK ABDELRAHMAN","ContactPhoneNumber":"0096551787869","HelperName":"Majed Ali","TotalTaskCount":25,"CurentTaskSerial":25,"ApiToken":null,"APIKey":null,"Action":2}</Msg>
+    <Trace>{"Timetoken":15833241932231269}</Trace>
+  </Error>
+  <Error>
+    <ErrID>12</ErrID>
+    <ErrDate>04/03/2020 15:38</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2971,"TaskName":"TAHER ZAKARIA MOHAMED HASSOUNA(70-1234)","RequestedDate":"\/Date(1583325435827)\/","Lalatitude":29.317601502333,"Longitude":48.0347719788551,"ContactName":"TAHER ZAKARIA MOHAMED HASSOUNA","ContactPhoneNumber":"0096566016033","HelperName":"Majed Ali","TotalTaskCount":26,"CurentTaskSerial":26,"ApiToken":null,"APIKey":null,"Action":2}</Msg>
+    <Trace>{"Timetoken":15833255269127357}</Trace>
+  </Error>
+  <Error>
+    <ErrID>13</ErrID>
+    <ErrDate>04/03/2020 16:05</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2972,"TaskName":"AHMED RAGAB ABDELKHALEK ABDELRAHMAN(70-12345678)","RequestedDate":"\/Date(1583326883433)\/","Lalatitude":29.32507327523275,"Longitude":48.021851778030396,"ContactName":"AHMED RAGAB ABDELKHALEK ABDELRAHMAN","ContactPhoneNumber":"0096551787869","HelperName":"Majed Ali","TotalTaskCount":27,"CurentTaskSerial":27,"ApiToken":null,"APIKey":null,"Action":2}</Msg>
+    <Trace>{"Timetoken":15833271037933627}</Trace>
+  </Error>
+  <Error>
+    <ErrID>14</ErrID>
+    <ErrDate>04/03/2020 16:07</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2972,"TaskName":"AHMED RAGAB ABDELKHALEK ABDELRAHMAN(70-12345678)","RequestedDate":"\/Date(1583326883433)\/","Lalatitude":29.32507327523275,"Longitude":48.021851778030396,"ContactName":"AHMED RAGAB ABDELKHALEK ABDELRAHMAN","ContactPhoneNumber":"0096551787869","HelperName":"Majed Ali","TotalTaskCount":28,"CurentTaskSerial":28,"ApiToken":null,"APIKey":null,"Action":2}</Msg>
+    <Trace>{"Timetoken":15833272388069834}</Trace>
+  </Error>
+  <Error>
+    <ErrID>15</ErrID>
+    <ErrDate>04/03/2020 18:30</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_14"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_14</ErrPage>
+    <Msg>{"MaintenanceRequestTaskID":2989,"TaskName":"KALANDAR RIZWAN (70-12345)","RequestedDate":"\/Date(1583335800673)\/","Lalatitude":29.317601502333,"Longitude":48.0347719788551,"ContactName":"KALANDAR RIZWAN ","ContactPhoneNumber":"0096569985747","HelperName":"Majed Ali","TotalTaskCount":26,"CurentTaskSerial":26,"ApiToken":null,"APIKey":null,"Action":2}</Msg>
+    <Trace>{"Timetoken":15833358448739077}</Trace>
+  </Error>
+  <Error>
+    <ErrID>16</ErrID>
+    <ErrDate>06/03/2020 13:30</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_1"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_1</ErrPage>
+    <Msg>{"ApiToken":null,"APIKey":null,"Action":6,"DriverID":1,"DriverChannelName":"drv_chnl_1","CurrentAvailabilityStatus":2}</Msg>
+    <Trace>{"Timetoken":15834906175539034}</Trace>
+  </Error>
+  <Error>
+    <ErrID>17</ErrID>
+    <ErrDate>06/03/2020 13:30</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_2"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_2</ErrPage>
+    <Msg>{"ApiToken":null,"APIKey":null,"Action":6,"DriverID":2,"DriverChannelName":"drv_chnl_2","CurrentAvailabilityStatus":2}</Msg>
+    <Trace>{"Timetoken":15834906221266334}</Trace>
+  </Error>
+  <Error>
+    <ErrID>18</ErrID>
+    <ErrDate>06/03/2020 13:30</ErrDate>
+    <UserID>{"Category":"PNAcknowledgmentCategory","ErrorData":null,"Error":false,"StatusCode":200,"Operation":"PNPublishOperation","TlsEnabled":true,"Uuid":null,"AuthKey":null,"Origin":"ps.pndsn.com","ClientRequest":null,"AffectedChannels":["drv_chnl_14"],"AffectedChannelGroups":[]}</UserID>
+    <UserType />
+    <ErrPage>drv_chnl_14</ErrPage>
+    <Msg>{"ApiToken":null,"APIKey":null,"Action":6,"DriverID":14,"DriverChannelName":"drv_chnl_14","CurrentAvailabilityStatus":2}</Msg>
+    <Trace>{"Timetoken":15834906256584040}</Trace>
+  </Error>
+</Mawaqaa-Tracking>

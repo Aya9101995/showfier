@@ -1,0 +1,216 @@
+﻿@model MWCore.Areas.MWCore.Models.MWCoreModel
+@{
+    if (Model.oPage.PageID > 0)
+    {
+        ViewBag.Title = "Edit Page";
+
+    }
+    else
+    {
+        ViewBag.Title = "Add New Page";
+    }
+}
+@using (Html.BeginForm("SavePages", "PagesControl", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    @Html.HiddenFor(m => m.oPage.PageID)
+    @Html.HiddenFor(m => m.oPage.ParentID)
+    @Html.HiddenFor(m => m.oPage.LanguageID)
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Is Page?</label>
+            <div class="col-sm-10">
+                @Html.CheckBoxFor(m => m.oPage.IsPage, new { @class = "form-control", @placeholder = "Page Tags" })
+                @Html.ValidationMessageFor(m => m.oPage.IsPage, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Is PreDefined Page?</label>
+            <div class="col-sm-10">
+                @Html.CheckBoxFor(m => m.oPage.IsPreDefinedPage, new { @class = "form-control", @placeholder = "Page Tags" })
+                @Html.ValidationMessageFor(m => m.oPage.IsPreDefinedPage, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Page Name</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oPage.PageName, new { @class = "form-control", @placeholder = "Title" })
+                @Html.ValidationMessageFor(m => m.oPage.PageName, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body ispage" style="display:none;">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Page Title</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oPage.PageTitle, new { @class = "form-control", @placeholder = "Title" })
+                @Html.ValidationMessageFor(m => m.oPage.PageTitle, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body ispage" style="display:none;">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Page URL</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oPage.PageURL, new { @class = "form-control", @placeholder = "Page URL" })
+                @Html.ValidationMessageFor(m => m.oPage.PageURL, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body ispage" style="display:none;">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Page Tags</label>
+            <div class="col-sm-10">
+                @Html.TextBoxFor(m => m.oPage.PageTags, new { @class = "form-control", @placeholder = "Page Tags" })
+                @Html.ValidationMessageFor(m => m.oPage.PageTags, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body ispage" style="display:none;">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Page Details</label>
+            <div class="col-sm-10">
+                @Html.TextAreaFor(m => m.oPage.PageDetails, new { @class = "form-control", @placeholder = "Page Details", @id = "fulldesc" })
+                @Html.ValidationMessageFor(m => m.oPage.PageDetails, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body ispage" style="display:none;">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Show In Menu</label>
+            <div class="col-sm-10">
+                @Html.CheckBoxFor(m => m.oPage.ShowInMenu, new { @class = "form-control", @placeholder = "Page Tags" })
+                @Html.ValidationMessageFor(m => m.oPage.ShowInMenu, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body ispage" style="display:none;">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Show In Footer</label>
+            <div class="col-sm-10">
+                @Html.CheckBoxFor(m => m.oPage.ShowInFooter, new { @class = "form-control", @placeholder = "Page Tags" })
+                @Html.ValidationMessageFor(m => m.oPage.ShowInFooter, "", new { @style = "color:orange;" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body ispage" style="display:none;">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Banner</label>
+            <div class="col-sm-10">
+                @if (Model.oPage.PageID > 0)
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.EditFiles, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Banner Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.EditFiles, "", new { @style = "color:orange;" })
+                }
+                else
+                {
+                    @Html.TextBoxFor(m => m.oFileUploader.Files, new { @id = "ImageUpload", @type = "file", @name = "Files", @class = "form-control", @placeholder = "Banner Image" })
+                    @Html.ValidationMessageFor(m => m.oFileUploader.Files, "", new { @style = "color:orange;" })
+                }
+                @Html.Image("/assets/images/Uploads/" + @Model.oPage.PageBanner + "", "", new { @id = "imgPreview", @height = "100", @width = "200" })
+                @Html.HiddenFor(m => m.oPage.PageBanner, new { @id = "HdnImg" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label class="col-sm-2 control-label" for="inputEmail3" style="width:150px;">Status</label>
+            <div class="col-sm-10">
+                @Html.DropDownListFor(m => m.oPage.Status, Model.lstStatus, new { @class = "form-control", @placeholder = "Sort Order" })
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="submit" id="btnSave" class="btn btn-info"><i class="fa fa-save"></i> Save</button>
+    </div>
+}
+<script src="@Url.Content("~/Scripts/jquery-3.6.0.min.js")"></script>
+<script src="@Url.Content("~/Scripts/jquery.unobtrusive-ajax.min.js")"></script>
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+<script src="@Url.Content("~/Areas/MWCore/assets/plugins/bower_components/tinymce/tinymce.min.js")"></script>
+<script>
+    $(document).ready(function () {
+        @{
+            if (Model.oPage.PageID > 0)
+            {
+                @: if (@Model.oPage.IsPage.ToString().ToLower()) {
+                @: $(".ispage").css("display", "block");
+                @:}
+            }
+        }
+        $("#oPage_IsPage").on("change", function () {
+            var Checked = this.checked;
+            if (Checked) {
+                $(".ispage").css("display", "block");
+            }
+            else {
+                $(".ispage").css("display", "none");
+            }
+        })
+        if ($("#fulldesc").length > 0) {
+            tinymce.init({
+                selector: "textarea#fulldesc",
+                theme: "modern",
+                height: 300,
+                relative_urls: false,
+                remove_script_host: false,
+                convert_urls: true,
+                plugins: [
+                    "advlist autolink link image lists charmap print preview hr anchor pagebreak spellchecker",
+                    "searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
+                    "save table contextmenu directionality emoticons template paste textcolor"
+                ],
+                toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | l      ink image | print preview media fullpage | forecolor backcolor emoticons",
+
+            });
+        }
+        $("#ImageUpload").change(function () {
+
+            $('#btnSave').attr("disabled", "disabled");
+            $('#btnSave').text('Wait...');
+            var FilesExtensions = /(.*?)\.(jpg|jpeg|png|JPG|JPEG|PNG)$/;
+            var data = new FormData();
+            var files = $("#ImageUpload").get(0).files;
+            var file = $("#ImageUpload").val().toLowerCase();
+            if (files.length > 0 && file.match(FilesExtensions)) {
+                data.append("MyImages", files[0]);
+                var url = "@Url.Action("UploadImage", "DashboardControl")";
+            $.ajax({
+                url: url,
+                type: "POST",
+                processData: false,
+                contentType: false,
+                data: data,
+                success: function (response) {
+
+                    if (response != "Error") {
+                        $("#imgPreview").attr('src', '/assets/images/Uploads/' + response);
+                        $('#HdnImg').val(response);
+                    }
+                    else {
+                        $("#ImageUpload").val("");
+                    }
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                },
+                error: function (er) {
+                    $("#ImageUpload").val("");
+                    $('#btnSave').removeAttr("disabled");
+                    $('#btnSave').text('Save');
+                }
+
+            });
+            }
+            else
+            {
+                $("#ImageUpload").val("");
+                $('#btnSave').removeAttr("disabled");
+                $('#btnSave').text('Save');
+            }
+        });
+    })
+</script>
